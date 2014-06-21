@@ -1,0 +1,61 @@
+--              Language Independent Runtime Library
+--
+--                     Copyright 1983-2000
+--                  Green Hills Software,Inc.
+
+--  This program is the property of Green Hills Software, Inc,
+--  its contents are proprietary information and no part of it
+--  is to be disclosed to anyone except employees of Green Hills
+--  Software, Inc., or as agreed in writing signed by the President
+--  of Green Hills Software, Inc.
+
+#include "ind_800.h"
+
+        .file "ccmemcpy.800"
+        .text
+        .align  2
+..lxtdaG._memcpy=:0
+        .globl  _memcpy
+_memcpy:
+    	mov	r6,r10
+	andi	3,r6,r11
+	jnz	bytes
+	xor	r7,r11
+	andi	3,r11,r11
+	jnz	bytes
+.L1:
+	cmp	4,r8
+	bl	bytes
+	mov	r6,r12
+	add	r8,r12
+	shr	2,r12
+	shl	2,r12
+.L12:	
+	ld.w	0[r7],r11
+	add	4,r7		-- decrementing loop
+	SYNC
+	st.w	r11,0[r6]
+	add	4,r6
+	cmp	r6,r12
+	bh	.L12
+	andi	3,r8,r8
+-- Byte copy
+bytes:
+	cmp	zero,r8
+	bz	.L13
+	mov	r6,r12
+	add	r8,r12
+.L6:
+	ld.b	0[r7],r11	-- decrementing loop
+	add	1,r7
+	SYNC
+	st.b	r11,0[r6]
+	add	1,r6
+	cmp	r6,r12
+	bh	.L6
+.L13:
+	jmp	[lp]
+	.fsize 0
+	.scall __leaf__
+	.type _memcpy,@function
+	.size _memcpy,.-_memcpy

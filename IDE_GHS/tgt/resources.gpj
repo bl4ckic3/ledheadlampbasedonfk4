@@ -1,0 +1,4 @@
+#!gbuild
+#component target_resources
+[Project]
+libstartup\startup.gpj

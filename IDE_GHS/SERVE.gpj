@@ -1,0 +1,5 @@
+#!gbuild
+[Subproject]
+	-I..\BSP\SERVE
+Os\libCleaPlusOs.a
+Os\Api_SchdTbl.c

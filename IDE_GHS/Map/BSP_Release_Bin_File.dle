@@ -1,0 +1,43 @@
+------------------------------------------------
+dle output started at: Thu Jun 19 17:11:57 2014
+------------------------------------------------
+dblink = "C:\ghs\comp_201255\dblink"
+------------------------------------------------
+argv[0] = "C:\ghs\comp_201255\dblink.exe"
+argv[1] = "-dbopath=objs\Program,C:\Users\zhanyi\Desktop\factory\unionlab\space\Software\develop\branches\led_show_howforApp\IDE_GHS\libstartup"
+argv[2] = "-a"
+argv[3] = "-nm=gnm"
+argv[4] = "C:\Users\zhanyi\AppData\Local\Temp\gh_00003l01.nm"
+argv[5] = "-o"
+argv[6] = "Map\BSP_Release_Bin_File.dnm"
+argv[7] = "-top_project"
+argv[8] = "C:\Users\zhanyi\Desktop\factory\unionlab\space\Software\develop\branches\led_show_howforApp\IDE_GHS\GHS_IDE.gpj"
+argv[9] = "-Dscope.tools_dir=C:\ghs\comp_201255"
+argv[10] = "-Dscope.target=v800/generic/standalone"
+argv[11] = "-Dscope.processor=800"
+argv[12] = "-Dscope.cpuname=v850e2v3"
+argv[13] = "-Dscope.fputype=hard"
+argv[14] = "-Dscope.deflibdir=C:\ghs\comp_201255\lib\v850e2rv3"
+argv[15] = "C:\Users\zhanyi\Desktop\factory\unionlab\space\Software\develop\branches\led_show_howforApp\IDE_GHS\libstartup\libstartup.dba"
+argv[16] = "C:\Users\zhanyi\Desktop\factory\unionlab\space\Software\develop\branches\led_show_howforApp\IDE_GHS\libstartup\libstartup.dba"
+argv[17] = "C:\ghs\comp_201255\lib\v850e2rv3\libmulti.dba"
+argv[18] = "C:\ghs\comp_201255\lib\v850e2rv3\libfmalloc.dba"
+argv[19] = "C:\ghs\comp_201255\lib\v850e2rv3\libansi.dba"
+argv[20] = "C:\ghs\comp_201255\lib\v850e2rv3\libmath_fp.dba"
+argv[21] = "C:\ghs\comp_201255\lib\v850e2rv3\libind_fp.dba"
+argv[22] = "C:\Users\zhanyi\Desktop\factory\unionlab\space\Software\develop\branches\led_show_howforApp\IDE_GHS\libstartup\libstartup.dba"
+argv[23] = "C:\ghs\comp_201255\lib\v850e2rv3\libsys.dba"
+argv[24] = "C:\ghs\comp_201255\lib\v850e2rv3\libarch.dba"
+------------------------------------------------
+dblink: WARNING: could not find .dbo for "C:\Users\zhanyi\Desktop\factory\unionlab\space\Software\develop\branches\led_show_howforApp\IDE_GHS\crt0.dlo" with magic="..bof.C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Ccrt0..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS..53a291e2..00000000". Source level debugging will not be available for this object.
+dblink: WARNING: could not find .dbo for "D:\svn\System_Core_Dev\trunk\FX4_OscanEvt_OS\Fx4_OS_GHS\Tools\_build\ghs_v850\OBJ\osek.dlo" with magic="..bof.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek...44.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build..52008330..0". Source level debugging will not be available for this object.
+dblink: WARNING: could not find .dbo for "D:\svn\System_Core_Dev\trunk\FX4_OscanEvt_OS\Fx4_OS_GHS\Tools\_build\ghs_v850\OBJ\osektime.dlo" with magic="..bof.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosektime...44.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build..52008333..0". Source level debugging will not be available for this object.
+dblink: WARNING: could not find .dbo for "D:\svn\System_Core_Dev\trunk\FX4_OscanEvt_OS\Fx4_OS_GHS\Tools\_build\ghs_v850\OBJ\tcb.dlo" with magic="..bof.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Ctcb...44.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build..52008342..0". Source level debugging will not be available for this object.
+dblink: WARNING: could not find .dbo for "D:\svn\System_Core_Dev\trunk\FX4_OscanEvt_OS\Fx4_OS_GHS\Tools\_build\ghs_v850\OBJ\intvect.dlo" with magic="..bof.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cintvect...44.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build..52008345..0". Source level debugging will not be available for this object.
+dblink: WARNING: could not find .dbo for "D:\svn\System_Core_Dev\trunk\FX4_OscanEvt_OS\Fx4_OS_GHS\Tools\_build\ghs_v850\OBJ\Sys_Kernel.dlo" with magic="..bof.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_Kernel...44.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build..52008349..0". Source level debugging will not be available for this object.
+dblink: WARNING: could not find .dbo for "D:\svn\System_Core_Dev\trunk\FX4_OscanEvt_OS\Fx4_OS_GHS\Tools\_build\ghs_v850\OBJ\Sys_StackHandler.dlo" with magic="..bof.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_StackHandler...44.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build..5200834C..0". Source level debugging will not be available for this object.
+dblink: WARNING: could not find .dbo for "D:\svn\System_Core_Dev\trunk\FX4_OscanEvt_OS\Fx4_OS_GHS\Tools\_build\ghs_v850\OBJ\Sys_RuntimeHandler.dlo" with magic="..bof.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler...44.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build..52008350..0". Source level debugging will not be available for this object.
+dblink: WARNING: could not find .dbo for "D:\svn\System_Core_Dev\trunk\FX4_OscanEvt_OS\Fx4_OS_GHS\Tools\_build\ghs_v850\OBJ\osektrac.dlo" with magic="..bof.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosektrac...44.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build..5200831A..0". Source level debugging will not be available for this object.
+dblink: WARNING: This warning (.dbo not found) has been encountered 9 times and will no longer be printed.
+Use the "-warn_dbo_not_found_max=" option to control this threshold.
+dblink: WARNING: during processing, some .dbo files were not found.  Use the "-dbo_trace" option to diagnose.

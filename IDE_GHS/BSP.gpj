@@ -1,0 +1,8 @@
+#!gbuild
+[Subproject]
+	-I..\BSP\MCAL\Can
+	-I..\BSP\IoHwAb
+MCAL.gpj
+COMMON.gpj
+IoHwAb.gpj
+SERVE.gpj

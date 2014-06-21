@@ -1,0 +1,19 @@
+#!gbuild
+[Program]
+	-object_dir=objs\Program
+	-startfile_dir=${%expand_path(.)}
+	-L${%expand_path(./libstartup)}
+	-lstartup
+	-c_include_directory ..\BSP
+	-c_include_directory ..\APP
+	-I..\BSP
+	-I..\APP
+	-nopic
+	:sourceDir=..\CAL
+	{optgroup=GhsCommonOptions} -o Map\BSP_Release_Bin_File
+	-srec
+	-callgraph
+	-Mx
+linker\DF4010.ld
+libstartup\libstartup.a
+BSP.gpj

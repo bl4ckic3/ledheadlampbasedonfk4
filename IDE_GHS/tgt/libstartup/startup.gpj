@@ -1,0 +1,12 @@
+#!gbuild
+#component libstartup
+[Subproject]
+	-DEMBEDDED :select=800 :select=cxx :select=cc :select=c
+	:binDir=libstartup
+	-I../libsys
+	-IC:\ghs\v800517D\src\libsys
+	-pic
+crt0.800
+	:outputDir=.
+	-I../libsys
+libstartup.gpj		[Library]

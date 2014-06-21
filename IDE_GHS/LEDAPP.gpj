@@ -1,0 +1,14 @@
+#!gbuild
+[Subproject]
+LEDPWMActOut\LEDPWMActOutRTE.h
+LEDPWMActOut\LEDPWMActOutRTE.c
+LEDPWMActOut\LEDPWMActOut.h
+LEDPWMActOut\LEDPWMActOut.c
+LEDPWMActOut\CAL3_LEDPWMActOut.h
+LEDPWMActOut\CAL3_LEDPWMActOut.c
+LEDLightControl\LEDLightControlRTE.h
+LEDLightControl\LEDLightControlRTE.c
+LEDLightControl\LEDLightControl.h
+LEDLightControl\LEDLightControl.c
+LEDLightControl\CAL1_LEDLightControl.h
+LEDLightControl\CAL1_LEDLightControl.c

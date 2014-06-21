@@ -1,0 +1,2 @@
+850eserv2  -df="C:\ghs\v800517D\v850e\df4010.800" -minicube -e2 -dclock=8000,0,swoff -2m -id ffffffffffffffffffff
+850eserv2  -df="debug\df4010.800" -minicube -e2 -dclock=8000,0,swoff -id ffffffffffffffffffff

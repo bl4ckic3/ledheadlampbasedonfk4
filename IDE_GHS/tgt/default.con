@@ -1,0 +1,17 @@
+target_connection {
+     {
+        title = "Generic-V800 V850E2V3 with Simulator for V800 (sim850)"
+        type = "Simulator for V800 (sim850)"
+        short_type = "sim800"
+        args = " -cpu=v850e2v3 -rom"
+        command = "sim850 -cpu=v850e2v3 -rom"
+        logfile = ""
+        mode = ""
+        setup_script = ""
+        run_mode_partner = ""
+        run_mode_policy = ""
+        sane = "yes"
+        log = "no"
+        timestamp = "0"
+    }
+}

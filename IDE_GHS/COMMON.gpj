@@ -1,0 +1,5 @@
+#!gbuild
+[Subproject]
+df4010_startup.850
+Common\interrupt.c
+Common\main.c

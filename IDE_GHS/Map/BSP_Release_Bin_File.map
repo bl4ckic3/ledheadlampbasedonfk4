@@ -1,0 +1,2479 @@
+Link Date:	Thu Jun 19 17:11:57 2014
+Host OS:	Windows 7 Service Pack 1
+Version:	ELXR 2012.5.5 (c) Green Hills Software   Build: Sep 12 2012
+
+
+Load Map Thu Jun 19 17:11:57 2014
+Image Summary
+
+  Section              Base      Size(hex)    Size(dec)  SecOffs
+  .intvect             00000000  00001074         4212   00005a0
+  .intvect_end         0000107f  00000000            0   0000000
+  BOOT_CONST           00001100  00000000            0   0000000
+  APP_VECT             00002000  00000000            0   0000000
+  ISR_SECT             00002500  000000ae          174   0001614
+  FAST_SECT            00004000  00000000            0   0000000
+  .rosdata             00004000  00000000            0   0000000
+  .CONST_ROM_1BIT      00004000  00000000            0   0000000
+  .CONST_ROM_8BIT      00004000  00000002            2   00016c2
+  .CONST_ROM_16BIT     00004002  00000006            6   00016c4
+  .CONST_ROM_32BIT     00004008  00000008            8   00016cc
+  .CONST_ROM_UNSPECIFIED 00004010  000001a0          416   00016d4
+  .CONST_FAR_ROM_1BIT  000041b0  00000000            0   0000000
+  .CONST_FAR_ROM_8BIT  000041b0  00000000            0   0000000
+  .CONST_FAR_ROM_16BIT 000041b0  00000000            0   0000000
+  .CONST_FAR_ROM_32BIT 000041b0  00000000            0   0000000
+  .CONST_FAR_ROM_UNSPECIFIED 000041b0  00000000            0   0000000
+  .MCU_CFG_DATA_UNSPECIFIED 000041b0  00000000            0   0000000
+  .MCU_CFG_DBTOC_UNSPECIFIED 000041b0  00000034           52   0001874
+  .LIN_CFG_DATA_UNSPECIFIED 000041e4  00000000            0   0000000
+  .LIN_CFG_DBTOC_UNSPECIFIED 000041e4  00000000            0   0000000
+  .GPT_CFG_DATA_UNSPECIFIED 000041e4  000000b9          185   00018a8
+  .GPT_CFG_DBTOC_UNSPECIFIED 000042a0  00000010           16   0001964
+  .WDG23_A_CFG_DATA_UNSPECIFIED 000042b0  00000000            0   0000000
+  .WDG23_A_CFG_DBTOC_UNSPECIFIED 000042b0  00000000            0   0000000
+  .PORT_CFG_DATA_UNSPECIFIED 000042b0  00000290          656   0001974
+  .PORT_CFG_DBTOC_UNSPECIFIED 00004540  00000034           52   0001c04
+  .DIO_CFG_DATA_UNSPECIFIED 00004574  00000000            0   0000000
+  .DIO_CFG_DBTOC_UNSPECIFIED 00004574  00000000            0   0000000
+  .PWM_CFG_DATA_UNSPECIFIED 00004574  000004e4         1252   0001c38
+  .PWM_CFG_DBTOC_UNSPECIFIED 00004a58  00000014           20   000211c
+  .SPI_CFG_DATA_UNSPECIFIED 00004a6c  00000000            0   0000000
+  .SPI_CFG_DBTOC_UNSPECIFIED 00004a6c  00000000            0   0000000
+  .ADC_CFG_DATA_UNSPECIFIED 00004a6c  00000078          120   0002130
+  .ADC_CFG_DBTOC_UNSPECIFIED 00004ae4  0000001c           28   00021a8
+  .ICU_CFG_DATA_UNSPECIFIED 00004b00  00000000            0   0000000
+  .ICU_CFG_DBTOC_UNSPECIFIED 00004b00  00000000            0   0000000
+  .FEE_CFG_DATA_UNSPECIFIED 00004b00  00000000            0   0000000
+  .FEE_CFG_DBTOC_UNSPECIFIED 00004b00  00000000            0   0000000
+  TEXT_SECT            0000e000  00000000            0   0000000
+  .rodata              0000e000  00001f37         7991   00021c4
+  .osrodata            0000ff38  00000000            0   0000000
+  .text                0000ff38  000074a0        29856   0004100
+  .ostext              000173d8  00000000            0   0000000
+  .LIN_PUBLIC_CODE_ROM 000173d8  00000000            0   0000000
+  .LIN_PRIVATE_CODE_ROM 000173d8  00000000            0   0000000
+  .PWM_PUBLIC_CODE_ROM 000173d8  00000644         1604   000b5a0
+  .PWM_PRIVATE_CODE_ROM 00017a1c  00000846         2118   000bbe4
+  .PWM_APPL_CODE_ROM   00018262  00000000            0   0000000
+  .PORT_PUBLIC_CODE_ROM 00018262  000003f6         1014   000c42a
+  .PORT_PRIVATE_CODE_ROM 00018658  00000664         1636   000c820
+  .PORT_APPL_CODE_ROM  00018cbc  00000000            0   0000000
+  .GPT_PUBLIC_CODE_ROM 00018cbc  00000490         1168   000ce84
+  .GPT_PRIVATE_CODE_ROM 0001914c  00000386          902   000d314
+  .GPT_APPL_CODE_ROM   000194d2  00000000            0   0000000
+  .SPI_PUBLIC_CODE_ROM 000194d2  00000000            0   0000000
+  .SPI_PRIVATE_CODE_ROM 000194d2  00000000            0   0000000
+  .SPI_APPL_CODE_ROM   000194d2  00000000            0   0000000
+  .ADC_PUBLIC_CODE_ROM 000194d2  00000590         1424   000d69a
+  .ADC_PRIVATE_CODE_ROM 00019a62  00000370          880   000dc2a
+  .ADC_APPL_CODE_ROM   00019dd2  00000000            0   0000000
+  .WDG23_A_PUBLIC_CODE_ROM 00019dd2  00000000            0   0000000
+  .MCU_PUBLIC_CODE_ROM 00019dd2  00001c22         7202   000df9a
+  .MCU_PRIVATE_CODE_ROM 0001b9f4  00000962         2402   000fbbc
+  .DIO_PUBLIC_CODE_ROM 0001c356  00000f62         3938   001051e
+  .ICU_PUBLIC_CODE_ROM 0001d2b8  00000000            0   0000000
+  .ICU_PRIVATE_CODE_ROM 0001d2b8  00000000            0   0000000
+  .rozdata             0001d2b8  00000000            0   0000000
+  .robase              0001d2b8  00000000            0   0000000
+  .fixaddr             0001d2b8  00000000            0   0000000
+  .fixtype             0001d2b8  00000000            0   0000000
+  .secinfo             0001d2b8  00000084          132   0011480
+  .syscall             0001d33c  00000006            6   0011504
+  .romdata             0001d344  0000008c          140   001150c
+  .romzdata            0001d3d0  00000000            0   0000000
+  .romsdata            0001d3d0  00000000            0   0000000
+  .romtdata            0001d3d0  00000000            0   0000000
+  .FAL_TextRam         0001d3d0  00000000            0   0000000
+  .FAL_Text            0001d3d0  00000000            0   0000000
+  .EEL_Text            0001d3d0  00000000            0   0000000
+  .FAL_Const           0001d3d0  00000000            0   0000000
+  .EEL_Const           0001d3d0  00000000            0   0000000
+  .FEE_PUBLIC_CODE_ROM 0001d3d0  00000000            0   0000000
+  .FEE_PRIVATE_CODE_ROM 0001d3d0  00000000            0   0000000
+  .FEE_APPL_CODE_ROM   0001d3d0  00000000            0   0000000
+  .endofrom            0001d400  00000000            0   0000000
+  .data                fede4000  0000008c          140   001150c
+  .osstackbss          fede408c  00001964         6500   0000000
+  .osstacksbss         fede59f0  00000000            0   0000000
+  .bss                 fede59f0  00001b2c         6956   0000000
+  .osbss               fede751c  00000000            0   0000000
+  .sdabase             fede751c  00000000            0   0000000
+  .sdata               fede751c  00000000            0   0000000
+  .RAM_1BIT            fede751c  00000000            0   0000000
+  .RAM_8BIT            fede751c  00000000            0   0000000
+  .RAM_16BIT           fede751c  00000000            0   0000000
+  .RAM_32BIT           fede751c  00000000            0   0000000
+  .sbss                fede751c  00000000            0   0000000
+  .RAM_UNSPECIFIED     fede751c  00000000            0   0000000
+  .NOINIT_RAM_1BIT     fede751c  00000000            0   0000000
+  .NOINIT_RAM_8BIT     fede751c  00000002            2   0000000
+  .NOINIT_RAM_16BIT    fede7520  00000004            4   0000000
+  .NOINIT_RAM_32BIT    fede7524  0000000c           12   0000000
+  .NOINIT_RAM_UNSPECIFIED fede7530  0000004c           76   0000000
+  .EEL_Data            fede757c  00000000            0   0000000
+  .FAL_Data            fede757c  00000000            0   0000000
+  .FAST_RAM_1BIT       fede757c  00000000            0   0000000
+  .FAST_RAM_8BIT       fede757c  00000000            0   0000000
+  .FAST_RAM_16BIT      fede757c  00000000            0   0000000
+  .FAST_RAM_32BIT      fede757c  00000000            0   0000000
+  .FAST_RAM_UNSPECIFIED fede757c  00000000            0   0000000
+  .ADC_CFG_RAM_UNSPECIFIED fede757c  00000032           50   0000000
+  .PWM_CFG_RAM_UNSPECIFIED fede75ae  00000022           34   0000000
+  .GPT_CFG_RAM_UNSPECIFIED fede75d0  00000004            4   0000000
+  .SPI_CFG_RAM_UNSPECIFIED fede75d4  00000000            0   0000000
+  .ICU_CFG_RAM_UNSPECIFIED fede75d4  00000000            0   0000000
+  .FEE_CFG_RAM_UNSPECIFIED fede75d4  00000000            0   0000000
+  .LIN_CFG_RAM_UNSPECIFIED fede75d4  00000000            0   0000000
+  .zdata               fede75d4  00000000            0   0000000
+  .zbss                fede75d4  00000000            0   0000000
+  .ramtext             fede7600  00000000            0   0000000
+  .tdata               fede7600  00000000            0   0000000
+  .exec                fede7600  00000000            0   0000000
+  .stack               fede7600  00000800         2048   0000000
+  .heapbase            fede7e00  00000000            0   0000000
+  .heap                fede7e00  00018200        98816   0000000
+  .top_of_RAM          fee00000  00000000            0   0000000
+  .osstackdata         0001d400  00000000            0   0000000
+  .osstacksdata        0001d400  00000000            0   0000000
+  .osstackzdata        0001d400  00000000            0   0000000
+  .osstackzbss         0001d400  00000000            0   0000000
+  .gstackfix           00000000  00000000            0   0000000
+
+Load Map Thu Jun 19 17:11:57 2014
+Module Summary
+
+  Origin+Size    Section          Module
+0000ff38+0000d0  .text            crt0.o
+00010008+000014  .text            Det.o
+0001001c+000074  .text            CanIf_Cbk.o
+fede4000+000010  .data            CanIf_Cbk.o
+00010090+00019c  .text            Can_Write.o
+0001022c+0000e8  .text            Can_Wakeup.o
+fede4010+000001  .data            Can_Ram.o
+0000e000+0000e8  .rodata          Can_PBcfg.o
+00010314+000442  .text            Can_ModeCntrl.o
+0000e0e8+000010  .rodata          Can_ModeCntrl.o
+00010756+000410  .text            Can_MainServ.o
+00010b66+000194  .text            Can_Irq.o
+00010cfa+00023e  .text            Can_Int.o
+00010f38+000796  .text            Can.o
+fede7530+000010  .NOINIT_RAM_UNSPECIFIED Pwm_Ram.o
+00004a58+000014  .PWM_CFG_DBTOC_UNSPECIFIED Pwm_PBcfg.o
+00004574+0004e4  .PWM_CFG_DATA_UNSPECIFIED Pwm_PBcfg.o
+fede75ae+000022  .PWM_CFG_RAM_UNSPECIFIED Pwm_PBcfg.o
+00017a1c+000846  .PWM_PRIVATE_CODE_ROM Pwm_LLDriver.o
+000173d8+000112  .PWM_PUBLIC_CODE_ROM Pwm.o
+fede7540+000022  .NOINIT_RAM_UNSPECIFIED Adc_Ram.o
+fede751c+000001  .NOINIT_RAM_8BIT Adc_Ram.o
+00019a62+000370  .ADC_PRIVATE_CODE_ROM Adc_Private.o
+00004008+000008  .CONST_ROM_32BIT Adc_Private.o
+00004ae4+00001c  .ADC_CFG_DBTOC_UNSPECIFIED Adc_PBcfg.o
+00004a6c+000078  .ADC_CFG_DATA_UNSPECIFIED Adc_PBcfg.o
+fede757c+000032  .ADC_CFG_RAM_UNSPECIFIED Adc_PBcfg.o
+00004000+000002  .CONST_ROM_8BIT  Adc_Lcfg.o
+000194d2+000268  .ADC_PUBLIC_CODE_ROM Adc_Irq.o
+0001973a+000328  .ADC_PUBLIC_CODE_ROM Adc.o
+00004002+000006  .CONST_ROM_16BIT Adc.o
+000116ce+000018  .text            EcuM.o
+00004010+000118  .CONST_ROM_UNSPECIFIED Dio_Lcfg.o
+0001c356+000124  .DIO_PUBLIC_CODE_ROM Dio.o
+fede7564+00000c  .NOINIT_RAM_UNSPECIFIED Gpt_Ram.o
+fede751d+000001  .NOINIT_RAM_8BIT Gpt_Ram.o
+000042a0+000010  .GPT_CFG_DBTOC_UNSPECIFIED Gpt_PBcfg.o
+000041e4+0000b9  .GPT_CFG_DATA_UNSPECIFIED Gpt_PBcfg.o
+fede75d0+000004  .GPT_CFG_RAM_UNSPECIFIED Gpt_PBcfg.o
+0001914c+000386  .GPT_PRIVATE_CODE_ROM Gpt_LLDriver.o
+00004128+000004  .CONST_ROM_UNSPECIFIED Gpt_Lcfg.o
+00018cbc+000136  .GPT_PUBLIC_CODE_ROM Gpt_Irq.o
+00018df2+00035a  .GPT_PUBLIC_CODE_ROM Gpt.o
+000116e6+00000c  .text            Dem.o
+fede7570+000008  .NOINIT_RAM_UNSPECIFIED Mcu_Ram.o
+fede7520+000004  .NOINIT_RAM_16BIT Mcu_Ram.o
+fede7524+000004  .NOINIT_RAM_32BIT Mcu_Ram.o
+000041b0+000034  .MCU_CFG_DBTOC_UNSPECIFIED Mcu_PBcfg.o
+0000412c+000078  .CONST_ROM_UNSPECIFIED Mcu_PBcfg.o
+000041a4+00000c  .CONST_ROM_UNSPECIFIED Mcu_Lcfg.o
+00019dd2+001c22  .MCU_PUBLIC_CODE_ROM Mcu.o
+fede7528+000008  .NOINIT_RAM_32BIT Mcu.o
+0001b9f4+000962  .MCU_PRIVATE_CODE_ROM Mcu.o
+fede7578+000004  .NOINIT_RAM_UNSPECIFIED Port_Ram.o
+00004540+000034  .PORT_CFG_DBTOC_UNSPECIFIED Port_PBcfg.o
+000042b0+000290  .PORT_CFG_DATA_UNSPECIFIED Port_PBcfg.o
+00018262+0003f6  .PORT_PUBLIC_CODE_ROM Port.o
+00018658+000664  .PORT_PRIVATE_CODE_ROM Port.o
+000116f2+000026  .text            df4010_startup.o
+00000000+001074  .intvect         df4010_startup.o
+00011718+00001a  .text            interrupt.o
+fede4012+000002  .data            interrupt.o
+00002500+0000ae  ISR_SECT         interrupt.o
+fede4014+00001a  .data            main.o
+000174ea+0000f0  .PWM_PUBLIC_CODE_ROM main.o
+0001c47a+0001ac  .DIO_PUBLIC_CODE_ROM LEDPWMActOutRTE.o
+00011732+000040  .text            LEDPWMActOut.o
+0000e0f8+000009  .rodata          LEDPWMActOut.o
+fede402e+000005  .data            LEDPWMActOut.o
+fede4033+000009  .data            LEDLightControlRTE.o
+0001c626+00029a  .DIO_PUBLIC_CODE_ROM LEDLightControlRTE.o
+0000e104+000004  .rodata          LEDLightControl.o
+fede403c+000001  .data            LEDLightControl.o
+0001c8c0+0001c8  .DIO_PUBLIC_CODE_ROM LEDLightControl.o
+00011772+000082  .text            IoHwAb_Can.o
+fede403d+000010  .data            IoHwAb_Can.o
+fede404d+000005  .data            IoHwAb_Do.o
+fede63f8+000001  .bss             IoHwAb_Do.o
+0001ca88+0003f8  .DIO_PUBLIC_CODE_ROM IoHwAb_Do.o
+0000e108+000048  .rodata          IoHwAb_DoCfg.o
+0000e150+0001b8  .rodata          IoHwAb_LEDcfg.o
+000175da+0003ba  .PWM_PUBLIC_CODE_ROM IoHwAb_Api.o
+00017994+000088  .PWM_PUBLIC_CODE_ROM IoHwAb.o
+fede63fa+000076  .bss             IoHwAb_LED.o
+0001ce80+000420  .DIO_PUBLIC_CODE_ROM IoHwAb_LED.o
+0000e308+000050  .rodata          Api_SchdTbl.o
+0001d2a0+000018  .DIO_PUBLIC_CODE_ROM Api_SchdTbl.o
+000117f4+000006  .text            libmulti.a
+fede4054+000004  .data            libmulti.a
+fede6470+0003e8  .bss             libmulti.a
+000117fa+0005f6  .text            libstartup.a(ind_crt0.o)
+00011df0+0000c4  .text            libstartup.a(ind_uzip.o)
+00011eb4+00005a  .text            libstartup.a(ind_mset.o)
+00011f0e+00004a  .text            libstartup.a(ind_mcpy.o)
+00011f58+0017ac  .text            libCleaPlusOs.a(osek.o)
+fede4058+000006  .data            libCleaPlusOs.a(osek.o)
+0000e358+0000fe  .rodata          libCleaPlusOs.a(osek.o)
+00013704+00056e  .text            libCleaPlusOs.a(osektime.o)
+00013c72+0004c8  .text            libCleaPlusOs.a(tcb.o)
+0000e458+001954  .rodata          libCleaPlusOs.a(tcb.o)
+fede408c+001964  .osstackbss      libCleaPlusOs.a(tcb.o)
+0001413a+000014  .text            libCleaPlusOs.a(intvect.o)
+0001414e+0003a6  .text            libCleaPlusOs.a(Sys_Kernel.o)
+0000fdac+0000c6  .rodata          libCleaPlusOs.a(Sys_Kernel.o)
+fede6858+00000c  .bss             libCleaPlusOs.a(Sys_Kernel.o)
+000144f4+0000aa  .text            libCleaPlusOs.a(Sys_StackHandler.o)
+0001459e+000170  .text            libCleaPlusOs.a(Sys_RuntimeHandler.o)
+fede405e+000001  .data            libCleaPlusOs.a(Sys_RuntimeHandler.o)
+fede6864+00000c  .bss             libCleaPlusOs.a(Sys_RuntimeHandler.o)
+0001470e+000070  .text            libCleaPlusOs.a(osektrac.o)
+0001477e+00018a  .text            libCleaPlusOs.a(osekerr.o)
+0000fe72+000013  .rodata          libCleaPlusOs.a(osekerr.o)
+00014908+000d0e  .text            libCleaPlusOs.a(osektask.o)
+0000fe85+000050  .rodata          libCleaPlusOs.a(osektask.o)
+00015616+000710  .text            libCleaPlusOs.a(osekrsrc.o)
+0000fed5+000028  .rodata          libCleaPlusOs.a(osekrsrc.o)
+00015d26+0004ec  .text            libCleaPlusOs.a(Sys_AlarmHandler.o)
+0000fefd+00003a  .rodata          libCleaPlusOs.a(Sys_AlarmHandler.o)
+fede6870+0004b0  .bss             libCleaPlusOs.a(Sys_AlarmHandler.o)
+00016212+000292  .text            libCleaPlusOs.a(Sys_QueueHandler.o)
+fede4060+000018  .data            libCleaPlusOs.a(Sys_QueueHandler.o)
+fede6d20+0007f8  .bss             libCleaPlusOs.a(Sys_QueueHandler.o)
+000164a4+000afc  .text            libCleaPlusOs.a(osekalrm.o)
+00016fa0+000052  .text            libansi.a(ccexit.o)
+00016ff2+0000ac  .text            libsys.a(ind_exit.o)
+fede7518+000004  .bss             libsys.a(ind_exit.o)
+0001d33c+000006  .syscall         libsys.a(ind_dots.o)
+0001709e+000022  .text            libsys.a(ind_call.o)
+000170c0+0000d0  .text            libsys.a(ind_crt1.o)
+fede4078+000014  .data            libsys.a(ind_crt1.o)
+00017190+000006  .text            libsys.a(ind_lock.o)
+00017196+00001e  .text            libsys.a(ind_errn.o)
+000171b4+000224  .callt -> .text  libarch.a(indarchl.o)
+0001d2b8+000084  .secinfo         <section info>
+fede59f0+000a08  COMMON -> .bss   <commons>
+
+Load Map Thu Jun 19 17:11:57 2014
+Global Symbols (sorted alphabetically)
+
+ .intvect         00000000+000000 .intvect..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5Cdf4010_startup.
+ .ADC_PUBLIC_CODE_ROM 000194d2+000134 _ADC0_CG0_ISR
+ .ADC_PUBLIC_CODE_ROM 00019606+000134 _ADC1_CG0_ISR
+ .bss             fede603a+000006 _ADValueBuffer
+ .ADC_PRIVATE_CODE_ROM 00019bde+00015c _Adc_ConfigureGroupForConversion
+ .CONST_ROM_16BIT 00004002+000006 _Adc_GaaCGmConvStatusMask..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CAdc.
+ .ADC_CFG_DATA_UNSPECIFIED 00004a6c+000007 _Adc_GaaChannelToGroup
+ .CONST_ROM_8BIT  00004000+000002 _Adc_GaaHwUnitIndex
+ .NOINIT_RAM_UNSPECIFIED fede7558+00000a _Adc_GaaHwUnitStatus
+ .CONST_ROM_32BIT 00004008+000008 _Adc_GaaOperationMask..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CAdc_Private.
+ .ADC_PUBLIC_CODE_ROM 00019928+000020 _Adc_GetGroupStatus
+ .ADC_PUBLIC_CODE_ROM 00019948+0000fe _Adc_GetStreamLastPointer
+ .NOINIT_RAM_UNSPECIFIED fede7540+000004 _Adc_GpConfigPtr
+ .NOINIT_RAM_UNSPECIFIED fede7548+000004 _Adc_GpGroupConfig
+ .NOINIT_RAM_UNSPECIFIED fede754c+000004 _Adc_GpGroupRamData
+ .NOINIT_RAM_UNSPECIFIED fede7544+000004 _Adc_GpHwUnitConfig
+ .NOINIT_RAM_UNSPECIFIED fede7550+000004 _Adc_GpHwUnitRamData
+ .NOINIT_RAM_UNSPECIFIED fede7554+000004 _Adc_GpRunTimeData
+ .ADC_PRIVATE_CODE_ROM 00019a9e+000140 _Adc_GroupCompleteMode
+ .ADC_CFG_DBTOC_UNSPECIFIED 00004ae4+00001c _Adc_GstConfiguration
+ .ADC_CFG_DATA_UNSPECIFIED 00004abc+000028 _Adc_GstGroupConfig
+ .ADC_CFG_RAM_UNSPECIFIED fede757c+000018 _Adc_GstGroupRamData
+ .ADC_CFG_DATA_UNSPECIFIED 00004a84+000038 _Adc_GstHWUnitConfig
+ .ADC_CFG_RAM_UNSPECIFIED fede75ac+000002 _Adc_GstHwUnitRamData
+ .ADC_CFG_DATA_UNSPECIFIED 00004a74+000010 _Adc_GstImrAddMask
+ .ADC_CFG_RAM_UNSPECIFIED fede7594+000018 _Adc_GstRunTimeData
+ .NOINIT_RAM_8BIT fede751c+000001 _Adc_GucMaxSwTriggGroups
+ .ADC_PUBLIC_CODE_ROM 0001973a+0000b0 _Adc_Init
+ .ADC_PRIVATE_CODE_ROM 00019a62+00003c _Adc_Isr
+ .ADC_PUBLIC_CODE_ROM 00019a46+00001c _Adc_SetupResultBuffer
+ .ADC_PUBLIC_CODE_ROM 000197ea+000098 _Adc_StartGroupConversion
+ .ADC_PRIVATE_CODE_ROM 00019d3a+000098 _Adc_StateTransition
+ .ADC_PUBLIC_CODE_ROM 00019882+0000a6 _Adc_StopGroupConversion
+ .text            000163b0+000052 _AddKERNEL_b_QueueFrontItem
+ .text            00016308+000050 _AddKERNEL_b_QueueInitPhase
+ .text            000162a8+000060 _AddKERNEL_b_QueueItem
+ .bss             fede63f5+000001 _AlmCurUseNum
+ .rodata          0000fefd+000002 _AlmCvtCoeff..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_AlarmHandler.
+ .bss             fede6ac8+000258 _AlmDurationBuff..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_AlarmHandler.
+ .bss             fede63f7+000001 _AlmErrCode
+ .bss             fede63f6+000001 _AlmMaxUseNum
+ .PWM_PUBLIC_CODE_ROM 000175b2+000004 _Appl_10mS_Task
+ .text            00010b66+000194 _CAN_WAKEUP_TXCANCEL_ISR
+ .rodata          0000e32c+000004 _CaKERNEL_100msTaskList
+ .rodata          0000e334+000004 _CaKERNEL_10msATaskList
+ .rodata          0000e340+00000c _CaKERNEL_10msBTaskList
+ .rodata          0000e320+000004 _CaKERNEL_1KmsTaskList
+ .rodata          0000e328+000004 _CaKERNEL_200msTaskList
+ .rodata          0000e308+000008 _CaKERNEL_20msTaskList
+ .rodata          0000e33c+000004 _CaKERNEL_2p5msTaskList
+ .rodata          0000e324+000004 _CaKERNEL_500msTaskList
+ .rodata          0000e330+000004 _CaKERNEL_50msTaskList
+ .rodata          0000e34c+00000c _CaKERNEL_5msATaskList
+ .rodata          0000e338+000004 _CaKERNEL_5msBTaskList
+ .rodata          0000e318+000008 _CaKERNEL_a_EventFuncs
+ .rodata          0000fdac+00001c _CaKERNEL_a_PrdFuncs..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_Kernel.
+ .rodata          0000e310+000008 _CaKERNEL_fp_CeEVT_e_Test
+ .rodata          0000e278+000090 _CaLED_h_ADimCfg
+ .rodata          0000e158+000090 _CaLED_h_PWMCfg
+ .rodata          0000e1e8+000090 _CaLED_h_RTCfg
+ .rodata          0000e150+000008 _CaPwmA_h_SimChCfg
+ .text            00010058+000008 _CanIf_ControllerBusOff
+ .text            00010060+000030 _CanIf_ReadRxData
+ .text            0001001c+000034 _CanIf_RxIndication
+ .text            00010050+000008 _CanIf_TxConfirmation
+ .PWM_PUBLIC_CODE_ROM 000175ce+000004 _CanTrcv_30_Tja1145_SpiIndicationL_BB
+ .PWM_PUBLIC_CODE_ROM 000175ca+000004 _CanTrcv_30_Tja1145_SpiIndicationM_BB
+ .PWM_PUBLIC_CODE_ROM 000175c6+000004 _CanTrcv_30_Tja1145_SpiIndicationN_BB
+ .bss             fede6028+000004 _Can_AFCan_GaaCanTxPduId
+ .rodata          0000e000+000002 _Can_AFCan_GaaCntrlArrayId
+ .rodata          0000e04c+000014 _Can_AFCan_GaaConfigType
+ .rodata          0000e060+000088 _Can_AFCan_GaaControllerConfigType
+ .rodata          0000e004+000020 _Can_AFCan_GaaHrh
+ .rodata          0000e024+000028 _Can_AFCan_GaaHth
+ .bss             fede6341+000004 _Can_AFCan_GaaPBByteArray
+ .text            0001022c+0000e8 _Can_CheckWakeup
+ .text            00010cfa+000134 _Can_DisableControllerInterrupts
+ .text            00010e2e+00010a _Can_EnableControllerInterrupts
+ .data            fede4010+000001 _Can_GblCanStatus
+ .bss             fede59f4+000004 _Can_GpCntrlIdArray
+ .bss             fede59f8+000004 _Can_GpFirstController
+ .bss             fede59f0+000004 _Can_GpFirstHth
+ .rodata          0000e0e8+000010 _Can_GstModeFuncPtr
+ .bss             fede633c+000001 _Can_GucFirstHthId
+ .bss             fede633f+000002 _Can_GucIntCounter
+ .bss             fede633e+000001 _Can_GucLastCntrlId
+ .bss             fede633d+000001 _Can_GucLastHthId
+ .text            00010f38+0003f8 _Can_Init
+ .text            00011330+00039e _Can_InitController
+ .text            00011772+000082 _Can_MainFunction_20mS
+ .text            00010870+000094 _Can_MainFunction_BusOff
+ .text            000107dc+000094 _Can_MainFunction_Read
+ .text            00010904+00008e _Can_MainFunction_Wakeup
+ .text            00010756+000086 _Can_MainFunction_Write
+ .text            00010a1e+000148 _Can_RxProcessing
+ .text            00010314+000128 _Can_SetControllerMode
+ .text            0001043c+000096 _Can_SleepMode
+ .text            00010588+0000ee _Can_StartMode
+ .text            00010676+0000e0 _Can_StopMode
+ .text            00010992+00008c _Can_TxConfirmationProcessing
+ .text            000104d2+0000b6 _Can_WakeupMode
+ .text            00010090+00019c _Can_Write
+ .rodata          0000e104+000004 _CeLED_u_TurnLampDuty
+ .bss             fede6870+000258 _ChainHash..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_AlarmHandler.
+ .text            00015e42+0000b8 _Clbk4AppEvtPush
+ .text            0001626a+00003e _ClearKERNEL_Queue
+ .DIO_PUBLIC_CODE_ROM 0001c8b2+00000e _ClrBadWeatherModeOut
+ .DIO_PUBLIC_CODE_ROM 0001c85e+00000e _ClrCityModeOut
+ .DIO_PUBLIC_CODE_ROM 0001c834+00000e _ClrCornerLampOut
+ .DIO_PUBLIC_CODE_ROM 0001cc8e+0000b6 _ClrDO_DevCtrl
+ .DIO_PUBLIC_CODE_ROM 0001c78c+00000e _ClrDRLOut
+ .DIO_PUBLIC_CODE_ROM 0001c7b6+00000e _ClrHighBeamOut
+ .DIO_PUBLIC_CODE_ROM 0001c888+00000e _ClrHighSpeedModeOut
+ .DIO_PUBLIC_CODE_ROM 0001c7e0+00000e _ClrLowBeamOut
+ .DIO_PUBLIC_CODE_ROM 0001c762+00000e _ClrParkLampOut
+ .DIO_PUBLIC_CODE_ROM 0001c80a+00000e _ClrTurnLampOut
+ .DIO_PUBLIC_CODE_ROM 0001d1a6+000024 _Clr_LED1
+ .DIO_PUBLIC_CODE_ROM 0001d1f0+000024 _Clr_LowBeam2
+ .DIO_PUBLIC_CODE_ROM 0001d246+00002c _Clr_TurnLamp
+ .text            000116e6+00000c _Dem_ReportErrorStatus
+ .text            00010008+000014 _Det_ReportError
+ .CONST_ROM_UNSPECIFIED 00004038+000028 _Dio_GstChannelGroupData
+ .CONST_ROM_UNSPECIFIED 00004060+0000c8 _Dio_GstPortChannel
+ .CONST_ROM_UNSPECIFIED 00004010+000028 _Dio_GstPortGroup
+ .DIO_PUBLIC_CODE_ROM 0001c3a2+000034 _Dio_ReadChannel
+ .DIO_PUBLIC_CODE_ROM 0001c41e+000026 _Dio_ReadChannelGroup
+ .DIO_PUBLIC_CODE_ROM 0001c356+000028 _Dio_ReadPort
+ .DIO_PUBLIC_CODE_ROM 0001c3d6+000048 _Dio_WriteChannel
+ .DIO_PUBLIC_CODE_ROM 0001c444+000036 _Dio_WriteChannelGroup
+ .DIO_PUBLIC_CODE_ROM 0001c37e+000024 _Dio_WritePort
+ .DIO_PUBLIC_CODE_ROM 0001ca88+000046 _DoAb_Init
+ .DIO_PUBLIC_CODE_ROM 0001cace+00012c _DoAb_UpdateChannel
+ .DIO_PUBLIC_CODE_ROM 0001c906+000022 _EH_CornerLampOut
+ .DIO_PUBLIC_CODE_ROM 0001ca44+000018 _EH_FANControl
+ .DIO_PUBLIC_CODE_ROM 0001c9ac+000022 _EH_HighBeamOut
+ .DIO_PUBLIC_CODE_ROM 0001c8c0+000046 _EH_LightShapeOut
+ .DIO_PUBLIC_CODE_ROM 0001c9ce+000022 _EH_LowBeamOut
+ .DIO_PUBLIC_CODE_ROM 0001c9f0+000054 _EH_ParkDRLOut
+ .DIO_PUBLIC_CODE_ROM 0001c928+000084 _EH_TurnLampOut
+ .text            000116e0+000006 _EcuM_CheckWakeup
+ .text            000116ce+000006 _EcuM_CheckWakeupEvent
+ .text            000116da+000006 _EcuM_SetWakeupEvent
+ .text            000116d4+000006 _EcuM_ValidateWakeupEvent
+ .text            000144a4+000028 _EnterDataShare
+ .text            000143d0+000002 _ErrorHook
+ .text            000144cc+000028 _ExitDataShare
+ .data            fede403d+000008 _GaaByteArrayCan
+ .data            fede4045+000008 _GaaByteArrayCanRdData
+ .data            fede4020+000004 _Gdd100mSFlag
+ .data            fede401c+000004 _Gdd10mSFlag
+ .data            fede4018+000004 _Gdd1mSFlag
+ .bss             fede6034+000006 _GddDataBufferPtr0
+ .bss             fede6345+000001 _GddSetupBuffer0
+ .bss             fede602c+000008 _GddVersionInfo
+ .DIO_PUBLIC_CODE_ROM 0001c8a6+00000c _GetBadWeatherModeOut
+ .DIO_PUBLIC_CODE_ROM 0001c726+000020 _GetBadWeatherModeSwitchSwitch
+ .DIO_PUBLIC_CODE_ROM 0001c852+00000c _GetCityModeOut
+ .DIO_PUBLIC_CODE_ROM 0001c6e6+000020 _GetCityModeSwitchSwitch
+ .DIO_PUBLIC_CODE_ROM 0001c828+00000c _GetCornerLampOut
+ .DIO_PUBLIC_CODE_ROM 0001c6c6+000020 _GetCornerLampSwitch
+ .DIO_PUBLIC_CODE_ROM 0001d2b4+000004 _GetCurHwTimer
+ .DIO_PUBLIC_CODE_ROM 0001ce48+000038 _GetDO_OutputVal
+ .DIO_PUBLIC_CODE_ROM 0001c780+00000c _GetDRLOut
+ .DIO_PUBLIC_CODE_ROM 0001c686+000020 _GetDRLSwitch
+ .DIO_PUBLIC_CODE_ROM 0001c7aa+00000c _GetHighBeamOut
+ .DIO_PUBLIC_CODE_ROM 0001c666+000020 _GetHighBeamSwitch
+ .DIO_PUBLIC_CODE_ROM 0001c87c+00000c _GetHighSpeedModeOut
+ .DIO_PUBLIC_CODE_ROM 0001c706+000020 _GetHighSpeedModeSwitchSwitch
+ .text            00016358+000058 _GetKERNEL_w_QueueItem
+ .DIO_PUBLIC_CODE_ROM 0001c7d4+00000c _GetLowBeamOut
+ .DIO_PUBLIC_CODE_ROM 0001c646+000020 _GetLowBeamSwitch
+ .DIO_PUBLIC_CODE_ROM 0001c756+00000c _GetParkLampOut
+ .DIO_PUBLIC_CODE_ROM 0001c626+000020 _GetParkLampSwitch
+ .DIO_PUBLIC_CODE_ROM 0001c7fe+00000c _GetTurnLampOut
+ .DIO_PUBLIC_CODE_ROM 0001c6a6+000020 _GetTurnLampSwitch
+ .data            fede4000+000010 _GlobalCanRxData
+ .GPT_PRIVATE_CODE_ROM 00019440+000092 _Gpt_CbkNotification
+ .GPT_PUBLIC_CODE_ROM 000190ca+000082 _Gpt_Cbk_CheckWakeup
+ .GPT_PUBLIC_CODE_ROM 00018e56+000014 _Gpt_DeInit
+ .GPT_PUBLIC_CODE_ROM 00018f9c+00001e _Gpt_DisableNotification
+ .GPT_PUBLIC_CODE_ROM 00019036+00004a _Gpt_DisableWakeup
+ .GPT_PUBLIC_CODE_ROM 00018f6c+000030 _Gpt_EnableNotification
+ .GPT_PUBLIC_CODE_ROM 00019080+00004a _Gpt_EnableWakeup
+ .GPT_CFG_DATA_UNSPECIFIED 00004200+00009d _Gpt_GaaTimerChIdx
+ .GPT_PUBLIC_CODE_ROM 00018e6a+000040 _Gpt_GetTimeElapsed
+ .GPT_PUBLIC_CODE_ROM 00018eaa+000040 _Gpt_GetTimeRemaining
+ .GPT_PUBLIC_CODE_ROM 00018df2+00001c _Gpt_GetVersionInfo
+ .NOINIT_RAM_UNSPECIFIED fede7564+000004 _Gpt_GpChannelConfig
+ .NOINIT_RAM_UNSPECIFIED fede756c+000004 _Gpt_GpChannelRamData
+ .NOINIT_RAM_UNSPECIFIED fede7568+000004 _Gpt_GpChannelTimerMap
+ .GPT_CFG_DATA_UNSPECIFIED 000041e4+00001c _Gpt_GstChannelConfig
+ .CONST_ROM_UNSPECIFIED 00004128+000004 _Gpt_GstChannelFunc
+ .GPT_CFG_RAM_UNSPECIFIED fede75d0+000004 _Gpt_GstChannelRamData
+ .GPT_CFG_DBTOC_UNSPECIFIED 000042a0+000010 _Gpt_GstConfiguration
+ .NOINIT_RAM_8BIT fede751d+000001 _Gpt_GucGptDriverMode
+ .GPT_PRIVATE_CODE_ROM 000191ba+00007e _Gpt_HW_DeInit
+ .GPT_PRIVATE_CODE_ROM 000193c4+000032 _Gpt_HW_DisableWakeup
+ .GPT_PRIVATE_CODE_ROM 000193f6+00004a _Gpt_HW_EnableWakeup
+ .GPT_PRIVATE_CODE_ROM 00019238+000054 _Gpt_HW_GetTimeElapsed
+ .GPT_PRIVATE_CODE_ROM 0001928c+000050 _Gpt_HW_GetTimeRemaining
+ .GPT_PRIVATE_CODE_ROM 0001914c+00006e _Gpt_HW_Init
+ .GPT_PRIVATE_CODE_ROM 000192dc+000086 _Gpt_HW_StartTimer
+ .GPT_PRIVATE_CODE_ROM 00019362+000062 _Gpt_HW_StopTimer
+ .GPT_PUBLIC_CODE_ROM 00018e0e+000048 _Gpt_Init
+ .GPT_PUBLIC_CODE_ROM 00018fba+00007c _Gpt_SetMode
+ .GPT_PUBLIC_CODE_ROM 00018eea+000040 _Gpt_StartTimer
+ .GPT_PUBLIC_CODE_ROM 00018f2a+000042 _Gpt_StopTimer
+ ISR_SECT         0000253c+000072 _Icu_Edge_Detect_1
+ .text            00015d26+00008a _InsertHash..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_AlarmHandler.
+ .text            00011718+00001a _InterruptSetup
+ .PWM_PUBLIC_CODE_ROM 00017574+000004 _IoHwAb_Adc_Notification_Group0
+ .PWM_PUBLIC_CODE_ROM 000177ea+000022 _IoHwAb_GetSW_BadWeatherMode
+ .PWM_PUBLIC_CODE_ROM 000177a6+000022 _IoHwAb_GetSW_CityMode
+ .PWM_PUBLIC_CODE_ROM 0001780c+000020 _IoHwAb_GetSW_ControlEnable
+ .PWM_PUBLIC_CODE_ROM 00017762+000022 _IoHwAb_GetSW_CornerLamp
+ .PWM_PUBLIC_CODE_ROM 00017784+000022 _IoHwAb_GetSW_DRL
+ .PWM_PUBLIC_CODE_ROM 00017722+000020 _IoHwAb_GetSW_HighBeam
+ .PWM_PUBLIC_CODE_ROM 000177c8+000022 _IoHwAb_GetSW_HighSpeed
+ .PWM_PUBLIC_CODE_ROM 00017702+000020 _IoHwAb_GetSW_LowBeam
+ .PWM_PUBLIC_CODE_ROM 000176e2+000020 _IoHwAb_GetSW_ParkLamp
+ .PWM_PUBLIC_CODE_ROM 00017742+000020 _IoHwAb_GetSW_TurnLamp
+ .PWM_PUBLIC_CODE_ROM 00017606+000016 _IoHwAb_ILBendingLeftControl
+ .PWM_PUBLIC_CODE_ROM 000175f0+000016 _IoHwAb_ILBendingRightControl
+ .PWM_PUBLIC_CODE_ROM 000175da+000016 _IoHwAb_ILCLevelLowBeam
+ .PWM_PUBLIC_CODE_ROM 0001768a+000016 _IoHwAb_ILDRLControl
+ .PWM_PUBLIC_CODE_ROM 000176a0+000016 _IoHwAb_ILELevelHighSpeedModeControl
+ .PWM_PUBLIC_CODE_ROM 00017674+000016 _IoHwAb_ILHighBeamControl
+ .PWM_PUBLIC_CODE_ROM 0001765e+000016 _IoHwAb_ILLowBeamControl
+ .PWM_PUBLIC_CODE_ROM 00017648+000016 _IoHwAb_ILParkLampControl
+ .PWM_PUBLIC_CODE_ROM 00017632+000016 _IoHwAb_ILTurnLeftControl
+ .PWM_PUBLIC_CODE_ROM 0001761c+000016 _IoHwAb_ILTurnRightControl
+ .PWM_PUBLIC_CODE_ROM 000176b6+000016 _IoHwAb_ILVLevelCityModeControl
+ .PWM_PUBLIC_CODE_ROM 000176cc+000016 _IoHwAb_ILWLevelBadWeatherControl
+ .PWM_PUBLIC_CODE_ROM 00017994+000084 _IoHwAb_Init
+ .PWM_PUBLIC_CODE_ROM 00017a18+000004 _IoHwAb_SchM10ms
+ .PWM_PUBLIC_CODE_ROM 000178f4+000028 _IoHwAb_SetBadWeather
+ .PWM_PUBLIC_CODE_ROM 000178cc+000028 _IoHwAb_SetHighSpeed
+ .PWM_PUBLIC_CODE_ROM 0001782c+000028 _IoHwAb_SetLED1
+ .PWM_PUBLIC_CODE_ROM 00017854+000028 _IoHwAb_SetLED2
+ .PWM_PUBLIC_CODE_ROM 0001791c+000028 _IoHwAb_SetLED3
+ .PWM_PUBLIC_CODE_ROM 0001787c+000028 _IoHwAb_SetLowBeam1
+ .PWM_PUBLIC_CODE_ROM 000178a4+000028 _IoHwAb_SetLowBeam2
+ .PWM_PUBLIC_CODE_ROM 0001796c+000028 _IoHwAb_SetParkLamp
+ .PWM_PUBLIC_CODE_ROM 00017944+000028 _IoHwAb_SetTurnLamp
+ .text            000161e0+000032 _IsTmActvGeneral
+ .rodata          0000e108+000048 _KaDO_h_PortConfig
+ .bss             fede6040+000002 _KeBSP_w_CourtesyLampPwmPeriod
+ .rodata          0000e100+000001 _KeLED_u_BadWeatherLampDuty
+ .rodata          0000e0fe+000001 _KeLED_u_CityModeLampDuty
+ .rodata          0000e0fd+000001 _KeLED_u_CornerLampDuty
+ .rodata          0000e0f9+000001 _KeLED_u_DRLDuty
+ .rodata          0000e0fa+000001 _KeLED_u_HighBeamDuty
+ .rodata          0000e0ff+000001 _KeLED_u_HighSpeedLampDuty
+ .data            fede4030+000001 _KeLED_u_LightingShowMode
+ .rodata          0000e0fb+000001 _KeLED_u_LowBeamDuty
+ .rodata          0000e0f8+000001 _KeLED_u_ParkLampDuty
+ .rodata          0000e0fc+000001 _KeLED_u_TurnLampDuty
+ .text            00011732+000040 _LEDPWMOutMainFunction
+ .DIO_PUBLIC_CODE_ROM 0001ca5c+00002c _LEDSwitchMainFunction
+ .DIO_PUBLIC_CODE_ROM 0001ce80+0000bc _LED_Init
+ .DIO_PUBLIC_CODE_ROM 0001cff8+0000bc _LED_SetHwLED_TLD
+ .DIO_PUBLIC_CODE_ROM 0001cf3c+0000bc _LED_SetHwLED_TPS
+ .bss             fede6d48+0007d0 _LaKERNEL_w_EventTaskQueueBuffer..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_QueueHandler.
+ .bss             fede6d20+000028 _LaKERNEL_w_PeriodTaskQueueBuffer..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_QueueHandler.
+ .bss             fede6864+000004 _LastStamp..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler.
+ .MCU_PRIVATE_CODE_ROM 0001c14e+0000ea _Mcu_ConfigureAWO7..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+ .MCU_PRIVATE_CODE_ROM 0001bc8c+0000d8 _Mcu_CpuClockPrepare..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+ .MCU_PRIVATE_CODE_ROM 0001c238+00011e _Mcu_CpuClockRestore..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+ .MCU_PRIVATE_CODE_ROM 0001b9f4+000298 _Mcu_DeepStopPrepare..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+ .MCU_PUBLIC_CODE_ROM 0001aa32+0003fe _Mcu_DistributePllClock
+ .CONST_ROM_UNSPECIFIED 00004198+00000c _Mcu_GaaCkscRegOffset
+ .CONST_ROM_UNSPECIFIED 00004180+000018 _Mcu_GaaCkscRegValue
+ .CONST_ROM_UNSPECIFIED 0000412c+000003 _Mcu_GaaClkSettingIndexMap
+ .NOINIT_RAM_32BIT fede752c+000004 _Mcu_Gblckscstatus..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+ .MCU_PUBLIC_CODE_ROM 0001ae30+000058 _Mcu_GetPllStatus
+ .MCU_PUBLIC_CODE_ROM 0001b08c+00001a _Mcu_GetResetRawValue
+ .MCU_PUBLIC_CODE_ROM 0001ae88+000204 _Mcu_GetResetReason
+ .NOINIT_RAM_16BIT fede7520+000004 _Mcu_GpCkscRegOffset
+ .NOINIT_RAM_32BIT fede7524+000004 _Mcu_GpCkscRegValue
+ .NOINIT_RAM_UNSPECIFIED fede7574+000004 _Mcu_GpClockSetting
+ .NOINIT_RAM_UNSPECIFIED fede7570+000004 _Mcu_GpConfigPtr
+ .CONST_ROM_UNSPECIFIED 00004130+000030 _Mcu_GstClockSetting
+ .MCU_CFG_DBTOC_UNSPECIFIED 000041b0+000034 _Mcu_GstConfiguration
+ .CONST_ROM_UNSPECIFIED 00004160+000020 _Mcu_GstModeSetting
+ .CONST_ROM_UNSPECIFIED 000041a4+00000c _Mcu_GstRamSetting
+ .NOINIT_RAM_32BIT fede7528+000004 _Mcu_GulCkscA07Val..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+ .MCU_PUBLIC_CODE_ROM 00019dd2+000242 _Mcu_Init
+ .MCU_PUBLIC_CODE_ROM 0001a03c+0009f6 _Mcu_InitClock
+ .MCU_PUBLIC_CODE_ROM 0001a014+000028 _Mcu_InitRamSection
+ .MCU_PRIVATE_CODE_ROM 0001c02e+000120 _Mcu_Iso1SoftWakeUp..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+ .MCU_PUBLIC_CODE_ROM 0001b960+000094 _Mcu_MaskClear_WakeUpFactor
+ .MCU_PRIVATE_CODE_ROM 0001bd64+0002ca _Mcu_RestartClocks..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+ .MCU_PUBLIC_CODE_ROM 0001b0a6+0008ba _Mcu_SetMode
+ .GPT_PUBLIC_CODE_ROM 00018cbc+000136 _OSTM0_CH0_ISR
+ .PWM_PUBLIC_CODE_ROM 00017584+00002e _OSTM_Notification
+ .PWM_PUBLIC_CODE_ROM 000174f8+000058 _PWMInit
+ .NOINIT_RAM_UNSPECIFIED fede7578+000004 _Port_GpConfigPtr
+ .PORT_CFG_DBTOC_UNSPECIFIED 00004540+000034 _Port_GstConfiguration
+ .PORT_PUBLIC_CODE_ROM 00018262+000108 _Port_Init
+ .PORT_PRIVATE_CODE_ROM 000186ca+000534 _Port_InitConfig..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CPort.
+ .PORT_CFG_DATA_UNSPECIFIED 000042dc+00000c _Port_JTAG_FuncCtrlRegs
+ .PORT_CFG_DATA_UNSPECIFIED 000042b0+000008 _Port_JTAG_PMSRRegs
+ .PORT_CFG_DATA_UNSPECIFIED 000042b8+000024 _Port_JTAG_Regs
+ .PORT_CFG_DATA_UNSPECIFIED 0000444c+00009c _Port_Num_FuncCtrlRegs
+ .PORT_CFG_DATA_UNSPECIFIED 000044e8+000058 _Port_Num_PMSRRegs
+ .PORT_CFG_DATA_UNSPECIFIED 000042e8+000164 _Port_Num_Regs
+ .PORT_PUBLIC_CODE_ROM 0001842e+00001c _Port_RefreshPortDirection
+ .PORT_PRIVATE_CODE_ROM 00018c70+00004c _Port_RefreshPortInternal..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CPort.
+ .PORT_PRIVATE_CODE_ROM 00018bfe+000072 _Port_SearchDirChangeablePin..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CPort.
+ .PORT_PRIVATE_CODE_ROM 00018658+000072 _Port_SearchModeChangeablePin..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CPort.
+ .PORT_PUBLIC_CODE_ROM 0001836a+0000c4 _Port_SetPinDirection
+ .PORT_PUBLIC_CODE_ROM 0001844a+00020e _Port_SetPinMode
+ .text            0001442e+000036 _PostTaskHook
+ .bss             fede685c+000002 _PrdTskLoader..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_Kernel.
+ .text            000143ec+00000c _PreAlarmHook
+ .text            000143f8+000036 _PreTaskHook
+ .PWM_CFG_RAM_UNSPECIFIED fede75ae+000022 _Pwm_GaaChannelIdleStatus
+ .PWM_CFG_DATA_UNSPECIFIED 00004574+000034 _Pwm_GaaTimerChIdx
+ .NOINIT_RAM_UNSPECIFIED fede7534+000004 _Pwm_GpChannelConfig
+ .NOINIT_RAM_UNSPECIFIED fede753c+000004 _Pwm_GpChannelIdleStatus
+ .NOINIT_RAM_UNSPECIFIED fede7538+000004 _Pwm_GpChannelTimerMap
+ .NOINIT_RAM_UNSPECIFIED fede7530+000004 _Pwm_GpTAUABCUnitConfig
+ .PWM_CFG_DATA_UNSPECIFIED 000046a0+0003b8 _Pwm_GstChannelConfig
+ .PWM_CFG_DBTOC_UNSPECIFIED 00004a58+000014 _Pwm_GstConfiguration
+ .PWM_CFG_DATA_UNSPECIFIED 00004618+000088 _Pwm_GstTAUABCChannelConfig
+ .PWM_CFG_DATA_UNSPECIFIED 000045a8+000070 _Pwm_GstTAUABCUnitConfig
+ .PWM_PRIVATE_CODE_ROM 0001822a+000038 _Pwm_HW_CalculateDuty
+ .PWM_PRIVATE_CODE_ROM 00017a1c+0001ae _Pwm_HW_Init
+ .PWM_PRIVATE_CODE_ROM 00017bca+0001ac _Pwm_HW_SetDutyCycle
+ .PWM_PRIVATE_CODE_ROM 00017d76+0001e2 _Pwm_HW_SetDuty_FixedPeriodShifted
+ .PWM_PRIVATE_CODE_ROM 0001808e+00019c _Pwm_HW_SetOutputToIdle
+ .PWM_PRIVATE_CODE_ROM 00017f58+000136 _Pwm_HW_SetPeriodAndDuty
+ .PWM_PUBLIC_CODE_ROM 000173d8+00004c _Pwm_Init
+ .PWM_PUBLIC_CODE_ROM 00017578+000004 _Pwm_Notification_0
+ .PWM_PUBLIC_CODE_ROM 0001757c+000004 _Pwm_Notification_1
+ .PWM_PUBLIC_CODE_ROM 00017580+000004 _Pwm_Notification_2
+ .PWM_PUBLIC_CODE_ROM 00017424+000042 _Pwm_SetDutyCycle
+ .PWM_PUBLIC_CODE_ROM 000174b8+000032 _Pwm_SetOutputToIdle
+ .PWM_PUBLIC_CODE_ROM 00017466+000052 _Pwm_SetPeriodAndDuty
+ .text            00016452+00004c _QueryKERNEL_b_ItemInQueue
+ .text            00016402+000012 _QueryKERNEL_b_QueueEmpty
+ .text            0001649e+000006 _QueryKERNEL_u_QueueStoredNum
+ .text            000116f2+000000 _RESET
+ .text            00016414+00003e _RemoveKERNEL_b_QueueItem
+ .PWM_PUBLIC_CODE_ROM 000175d6+000004 _ResumeAllInterrupts
+ .PWM_PUBLIC_CODE_ROM 000175b6+000004 _SPI_Sequence0_Notification
+ .PWM_PUBLIC_CODE_ROM 000175ba+000004 _SPI_Sequence1_Notification
+ .PWM_PUBLIC_CODE_ROM 000175be+000004 _SPI_Sequence2_Notification
+ .PWM_PUBLIC_CODE_ROM 000175c2+000004 _SPI_Sequence3_Notification
+ .bss             fede63fa+000009 _SaLED_b_HwLEDDevCtrlActv..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_LED.
+ .bss             fede6404+00006c _SaLED_h_HwLEDPeriodDuty..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_LED.
+ .text            00015db0+000040 _SearchHash..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_AlarmHandler.
+ .DIO_PUBLIC_CODE_ROM 0001c5ec+00003a _SetBadWeatherLightOutPWMDuty
+ .DIO_PUBLIC_CODE_ROM 0001c896+000010 _SetBadWeatherModeOut
+ .DIO_PUBLIC_CODE_ROM 0001c842+000010 _SetCityModeOut
+ .DIO_PUBLIC_CODE_ROM 0001c818+000010 _SetCornerLampOut
+ .DIO_PUBLIC_CODE_ROM 0001c5a2+000032 _SetCornerLampOutPWMDuty
+ .DIO_PUBLIC_CODE_ROM 0001cd44+000104 _SetDO_AppCtrl
+ .DIO_PUBLIC_CODE_ROM 0001cbfa+000094 _SetDO_DevCtrl
+ .DIO_PUBLIC_CODE_ROM 0001c770+000010 _SetDRLOut
+ .DIO_PUBLIC_CODE_ROM 0001c79a+000010 _SetHighBeamOut
+ .DIO_PUBLIC_CODE_ROM 0001c4ba+00003a _SetHighBeamOutPWMDuty
+ .DIO_PUBLIC_CODE_ROM 0001c5d4+000018 _SetHighSpeedLightOutPWMDuty
+ .DIO_PUBLIC_CODE_ROM 0001c86c+000010 _SetHighSpeedModeOut
+ .DIO_PUBLIC_CODE_ROM 0001c4f4+00003a _SetLowBeam1OutPWMDuty
+ .DIO_PUBLIC_CODE_ROM 0001c52e+00003a _SetLowBeam2OutPWMDuty
+ .DIO_PUBLIC_CODE_ROM 0001c7c4+000010 _SetLowBeamOut
+ .DIO_PUBLIC_CODE_ROM 0001c746+000010 _SetParkLampOut
+ .DIO_PUBLIC_CODE_ROM 0001c47a+000040 _SetParkLampOutPWMDuty
+ .DIO_PUBLIC_CODE_ROM 0001c7ee+000010 _SetTurnLampOut
+ .DIO_PUBLIC_CODE_ROM 0001c568+00003a _SetTurnLampOutPWMDuty
+ .DIO_PUBLIC_CODE_ROM 0001d180+000026 _Set_LED1
+ .DIO_PUBLIC_CODE_ROM 0001d214+000032 _Set_LED3
+ .DIO_PUBLIC_CODE_ROM 0001d1ca+000026 _Set_LowBeam2
+ .DIO_PUBLIC_CODE_ROM 0001d272+00002e _Set_TurnLamp
+ .text            000143de+00000e _ShutdownHook
+ .text            00015f4e+00013c _StartGeneralTm
+ .text            000143d2+00000c _StartupHook
+ .text            0001608a+000076 _StopGeneralTm
+ .PWM_PUBLIC_CODE_ROM 000175d2+000004 _SuspendAllInterrupts
+ .text            0001462a+000082 _SysSrvc_CalcCpuLoader..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler.
+ .text            0001459e+00006c _SysSrvc_EnterIdle
+ .text            0001460a+000020 _SysSrvc_ExitIdle
+ .text            000146ac+000062 _SysSrvc_GetRunTmStat
+ .text            0001414e+000024 _SysSrvc_GetVersionInfo
+ .text            00016236+000034 _SysSrvc_InitAllQueue
+ .text            00015df0+000052 _SysSrvc_InitFreeAlmQ
+ .text            00016212+000024 _SysSrvc_InitKrnlQ..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_QueueHandler.
+ .DIO_PUBLIC_CODE_ROM 0001d2a8+000004 _SysSrvc_OsTickHook
+ .text            00015efa+000054 _SysSrvc_PrdTskEnQ
+ .text            00014182+00005e _SysSrvc_SendEvt
+ .PWM_PUBLIC_CODE_ROM 00017568+000008 _SysSrvc_ShutdownHook
+ .text            00014562+00003c _SysSrvc_StackCheck
+ .text            00014172+000010 _SysSrvc_StartSchduler
+ .PWM_PUBLIC_CODE_ROM 00017550+000018 _SysSrvc_StartupHook
+ .text            0001453e+000024 _SysSrvc_uwGetIntStkUsage..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_StackHandler.
+ .text            000144f4+00004a _SysSrvc_uwGetStkUsage..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_StackHandler.
+ .DIO_PUBLIC_CODE_ROM 0001d2ac+000004 _Sys_EnterIdleClbk
+ .DIO_PUBLIC_CODE_ROM 0001d2b0+000004 _Sys_ExitIdleCblk
+ .rodata          0000fe62+000010 _Sys_KernelVersionNum
+ .data            fede402d+000001 _TaskAlreadyDo
+ .DIO_PUBLIC_CODE_ROM 0001d2a0+000004 _Task_BackGround
+ .text            0001420c+0001b6 _Task_EvtQHndlProcsfunc
+ .DIO_PUBLIC_CODE_ROM 0001d2a4+000004 _Task_InitAfterOsOn
+ .text            000141e0+00002c _Task_Initfunc
+ .text            000143c2+00000e _Task_RoundRobinfunc
+ .PWM_PUBLIC_CODE_ROM 00017570+000004 _Test_Task
+ .text            00016162+00007e _TmElspdGeneral
+ .text            00016100+000062 _TmRmndGeneral
+ .text            0001447a+00002a _UserPostISRHook
+ .text            00014464+000016 _UserPreISRHook
+ .data            fede404e+000001 _VaAPI_u_AECtrlReqActv..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_Do.
+ .data            fede4050+000001 _VaAPI_u_ActualOutStatus..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_Do.
+ .data            fede404d+000001 _VaAPI_u_AppOutput..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_Do.
+ .data            fede404f+000001 _VaAPI_u_OutPrtctActv..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_Do.
+ .data            fede4051+000001 _VaDoAb_u_OutOfVolt..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_Do.
+ .bss             fede5f1c+000104 _VaSysSrvc_TagRuntmCheck
+ .bss             fede6336+000006 _VaSysSrvc_uwStkUsage
+ .bss             fede63f8+000001 _VeAPI_b_OutPrtctDsbl..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_Do.
+ .bss             fede63f4+000001 _VeKRN_b_RecycleFlag
+ .bss             fede6334+000002 _VeKRN_w_TmpEvtID
+ .data            fede403b+000001 _VeLED_b_BadWeatherLampOutFlg
+ .data            fede4039+000001 _VeLED_b_CityModeLampOutFlg
+ .data            fede4038+000001 _VeLED_b_CornerLampOutFlg
+ .data            fede4034+000001 _VeLED_b_DRLOutFlg
+ .data            fede4035+000001 _VeLED_b_HighBeamOutFlg
+ .data            fede403a+000001 _VeLED_b_HighSpeedLampOutFlg
+ .data            fede4036+000001 _VeLED_b_LowBeamOutFlg
+ .data            fede4033+000001 _VeLED_b_ParkLampOutFlg
+ .data            fede4037+000001 _VeLED_b_TurnLampOutFlg
+ .data            fede403c+000001 _VeLED_u_TurnLampCount
+ .data            fede4032+000001 _VeLED_u_TurnLampCount2
+ .data            fede402e+000002 _VeLED_w_LightingShowCount
+ .data            fede4031+000001 _VeLED_w_PWMDutyCount
+ .data            fede4012+000002 _VeOS_w_UnitCount
+ .bss             fede6868+000002 _VeSysSrvc_CurCpuLoader..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler.
+ .bss             fede686a+000002 _VeSysSrvc_MaxCpuLoader..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler.
+ .data            fede406c+00000c _VsKERNEL_h_EventTaskQueue
+ .data            fede4060+00000c _VsKERNEL_h_PeriodTaskQueue
+ .text            00016ff2+000070 __Exit
+                  00000000+000000 ___atexit_cleanup_func
+ .text            000171b4+00005c ___callt_table
+                  00000000+000000 ___cpp_exception_cleanup
+                  00000000+000000 ___cpp_exception_init
+ .syscall         0001d33c+000006 ___dotsyscall
+ .text            000171a0+00000a ___gh_errno_ptr
+ .text            000171aa+00000a ___gh_get_errno
+                  00000000+000000 ___gh_iob_init
+ .text            00017194+000002 ___gh_lock_init
+ .text            00017196+00000a ___gh_set_errno
+ .text            00017190+000002 ___ghsLock
+ .text            00017192+000002 ___ghsUnlock
+                  00000000+000000 ___ghs_InterruptLock
+                  00000000+000000 ___ghs_InterruptUnlock
+ .text            00017062+00003c ___ghs_at_exit
+                  00000000+000000 ___ghs_board_cache_sync
+                  00000000+000000 ___ghs_board_devices_init
+                  00000000+000000 ___ghs_board_memory_init
+ .text            000171b4+00005c ___ghs_call_table
+                  00000000+000000 ___ghs_checksum
+                  00000000+000000 ___ghs_cpp_exception_cleanup
+                  00000000+000000 ___ghs_cpp_exception_init
+ .text            00011df0+0000c4 ___ghs_decompress
+ .text            000117fa+0005f6 ___ghs_ind_crt0
+ .text            000170c0+0000d0 ___ghs_ind_crt1
+ .syscall         0001d33c+000006 ___ghs_initial_dotsyscall
+                  00000000+000000 ___ghs_manprf_init
+                  00000000+000000 ___ghs_rambootcodeend
+                  00000000+000000 ___ghs_rambootcodestart
+                  00000000+000000 ___ghs_rombootcodeend
+                  00000000+000000 ___ghs_rombootcodestart
+ .text            0001709e+000022 ___ghs_syscall
+                  00000000+000000 ___ghs_undefined_func
+ .fixaddr         0001d2b8+000000 ___ghsbegin_fixaddr
+ .fixtype         0001d2b8+000000 ___ghsbegin_fixtype
+                  00000000+000000 ___ghsbegin_picbase
+                  00000000+000000 ___ghsbegin_pidbase
+ .robase          0001d2b8+000000 ___ghsbegin_robase
+                  00000000+000000 ___ghsbegin_sda_end
+                  00000000+000000 ___ghsbegin_sda_start
+ .sdabase         fede751c+000000 ___ghsbegin_sdabase
+ .secinfo         0001d2b8+000000 ___ghsbegin_secinfo
+ .secinfo         0001d30c+000000 ___ghsbinfo_aclear
+ .secinfo         0001d33c+000000 ___ghsbinfo_acopy
+ .secinfo         0001d33c+000000 ___ghsbinfo_bcopy
+ .secinfo         0001d2b8+000054 ___ghsbinfo_clear
+ .secinfo         0001d33c+000000 ___ghsbinfo_comacopy
+ .secinfo         0001d33c+000000 ___ghsbinfo_comcopy
+ .secinfo         0001d33c+000000 ___ghsbinfo_comtcopy
+ .secinfo         0001d30c+000030 ___ghsbinfo_copy
+ .secinfo         0001d33c+000000 ___ghsbinfo_tcopy
+ .secinfo         0001d33c+000000 ___ghseinfo_bcopy
+ .secinfo         0001d30c+000000 ___ghseinfo_clear
+ .secinfo         0001d33c+000000 ___ghseinfo_comcopy
+ .secinfo         0001d33c+000000 ___ghseinfo_copy
+ .fixaddr         0001d2b8+000000 ___ghsend_fixaddr
+ .stack           fede7e00+000000 ___ghsend_stack
+ .text            00017318+000004 ___ghsld2lp
+ .text            00017328+000006 ___ghsld2r20
+ .text            0001733a+000006 ___ghsld2r21
+ .text            0001734c+000006 ___ghsld2r22
+ .text            00017362+000006 ___ghsld2r23
+ .text            00017374+000006 ___ghsld2r24
+ .text            00017386+000006 ___ghsld2r25
+ .text            00017398+000006 ___ghsld2r26
+ .text            000173aa+000006 ___ghsld2r27
+ .text            000173bc+000006 ___ghsld2r28
+ .text            000173ce+000006 ___ghsld2r29
+ .text            0001730c+00000c ___ghsld4lp
+ .text            0001731c+00000c ___ghsld4r20
+ .text            0001732e+000000 ___ghsld4r21
+ .text            00017340+00000c ___ghsld4r22
+ .text            00017356+000000 ___ghsld4r23
+ .text            00017368+00000c ___ghsld4r24
+ .text            0001737a+00000c ___ghsld4r25
+ .text            0001738c+00000c ___ghsld4r26
+ .text            0001739e+00000c ___ghsld4r27
+ .text            000173b0+00000c ___ghsld4r28
+ .text            000173c2+00000c ___ghsld4r29
+ .text            000173d4+000004 ___ghsld4return
+ .text            00017352+000004 ___ghsldX4return
+ .text            00017210+000008 ___ghssv4lp
+ .text            00017218+00000a ___ghssv4r20
+ .text            00017222+00000a ___ghssv4r21
+ .text            0001722c+00000a ___ghssv4r22
+ .text            00017236+000008 ___ghssv4r22return
+ .text            0001723e+00000a ___ghssv4r23
+ .text            00017248+00000a ___ghssv4r24
+ .text            00017252+00000a ___ghssv4r25
+ .text            0001725c+00000a ___ghssv4r26
+ .text            00017266+00000a ___ghssv4r27
+ .text            00017270+00000a ___ghssv4r28
+ .text            0001727a+00000a ___ghssv4r29
+ .text            00017284+000008 ___ghssv4r29return
+ .text            000172ae+000006 ___ghssv5lp
+ .text            0001728c+00000a ___ghssv5r20
+ .text            00017296+00000a ___ghssv5r21
+ .text            000172a0+00000a ___ghssv5r22
+ .text            000172aa+000004 ___ghssv5r22out
+ .text            000172be+00000a ___ghssv5r23
+ .text            000172b4+00000a ___ghssv5r24
+ .text            000172c8+00000a ___ghssv5r25
+ .text            000172d2+00000a ___ghssv5r26
+ .text            000172dc+00000a ___ghssv5r27
+ .text            000172e6+00000a ___ghssv5r28
+ .text            000172f0+00000a ___ghssv5r29
+ .text            000172fa+000006 ___ghssv5return
+ .text            00017300+00000c ___ghssvlp
+                  00000000+000000 ___lowinit
+ .text            0001413a+000000 ___osTimerInterrupt
+                  00000000+000000 __cleanup
+ .tdata           fede7600+000000 __ep
+ .text            00016ff2+000070 __exit
+                  00000000+000000 __ghs_v800_r20_initializer
+                  00000000+000000 __ghs_v800_r21_initializer
+                  00000000+000000 __ghs_v800_sda_model
+ .sdabase         fedef51c+000000 __gp
+ .bss             fede59fc+000030 __multiArgs
+ .data            fede4054+000004 __multibufSize
+ .bss             fede6470+0003e8 __multibuffer
+ .text            000117f4+000004 __multiend
+ .text            00011f58+000000 __osTrap
+ .text            0000ff38+0000ae __start
+ .rosdata         0000c000+000000 __tp
+ .text            00011716+000000 __unused_isr
+ .data            fede402c+000001 _bitValue
+ .bss             fede6347+000002 _dummybuffer
+ .bss             fede6020+000004 _environ
+ .bss             fede6024+000004 _errno
+ .text            00016fa0+000052 _exit
+ .data            fede405e+000001 _fstinflg..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler.
+ .DIO_PUBLIC_CODE_ROM 0001d11a+000066 _iLED_RefreshPeriodDuty_TLD..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_LED.
+ .DIO_PUBLIC_CODE_ROM 0001d0b4+000066 _iLED_RefreshPeriodDuty_TPS..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_LED.
+ .data            fede4024+000004 _lpcnt_spi
+ .bss             fede686c+000004 _lststamp.SysSrvc_CalcCpuLoader.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler..4
+ .bss             fede6860+000004 _lsttmstamp.Task_EvtQHndlProcsfunc.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_Kernel..3
+ .PWM_PUBLIC_CODE_ROM 000174ea+00000e _main
+ .text            00011f0e+00004a _memcpy
+ .text            00011eb4+00005a _memset
+ .text            000117f8+000002 _multiBreak
+ .text            000117f4+000000 _multiCall
+ .bss             fede5a48+000004 _osAPIParam1
+ .bss             fede5a4c+000004 _osAPIParam2
+ .bss             fede5a50+000004 _osAPIParam3
+ .text            0001477e+000022 _osAbortSystem
+ .text            00014908+00028a _osActivateTask
+ .bss             fede61e2+000002 _osActiveTaskIndex
+ .bss             fede5a40+000004 _osActiveTaskLineNumber
+ .bss             fede5a3c+000004 _osActiveTaskModule
+ .bss             fede61ec+000002 _osActiveTaskPrio
+ .bss             fede6358+00009c _osAlarmActivated
+ .bss             fede5cc4+000258 _osAlarmCycleTime
+ .bss             fede61f4+00013a _osAlarmHeap
+ .bss             fede61f2+000002 _osAlarmHeapCount
+ .bss             fede5a54+000270 _osAlarmTime
+ .bss             fede6356+000001 _osAlarmTimerRunning
+ .text            000147a0+000014 _osAssertFailed
+ .text            00014122+000018 _osCallISRHooks_osTimerInterrupt
+ .text            00016daa+0001f6 _osCancelAlarm
+ .text            00014f0a+000328 _osChainTask
+ .text            00013e16+000052 _osChangeInternalClock
+ .text            00013798+0000e8 _osClimbDownMinHeap..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosektime.
+ .text            0001370e+00008a _osClimbUpMinHeap..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosektime.
+ .text            000131d6+0000ea _osDisableAllInterrupts
+ .text            00013e68+00019e _osDisableUnusedInterrupts
+ .text            00012030+000000 _osDispIsrEntryAfterSave
+ .text            00012030+000000 _osDispIsrEntryNoSave
+ .text            00012002+000000 _osDispIsrEntrySave
+ .text            00012d0a+000296 _osDispatcher
+ .text            000130ee+0000e8 _osEnableAllInterrupts
+ .bss             fede634f+000001 _osErrorFlag
+ .text            000147b4+000128 _osErrorHook
+ .text            000121c8+000000 _osFakeRETI
+ .text            000122c8+000044 _osFillInterruptStack
+ .text            0001230c+000040 _osFillTaskStacks..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+ .text            000165ba+000160 _osGetAlarm
+ .text            000164a4+000116 _osGetAlarmBase
+ .text            00012a7e+000030 _osGetIntStackUsage
+ .text            00015616+000378 _osGetResource
+ .text            000129ee+000090 _osGetStackUsage
+ .text            00015432+0000ca _osGetTaskID
+ .text            000154fc+00011a _osGetTaskState
+ .bss             fede61e8+000002 _osHighReadyTaskIndex
+ .bss             fede61e6+000002 _osHighReadyTaskPrio
+ .text            000148fc+00000c _osISRUnhandledException
+ .text            00013c72+0000ae _osIWraposTimerInterrupt
+ .text            00012d08+000002 _osIdleLoop..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+ .text            00013bb2+0000c0 _osInitAlarms
+ .text            00013034+0000ba _osInitInterrupts
+ .text            00013704+00000a _osInitMinHeap..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosektime.
+ .text            00012420+000028 _osInitTCBs..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+ .text            00013d9a+000036 _osInitTimer
+ .text            0001470e+000070 _osInitTrace
+ .text            00012aae+000022 _osInitialize
+ .text            00013880+000040 _osInsertMinHeap
+ .bss             fede6354+000001 _osIntAPIStatus
+ .bss             fede6351+000001 _osIntNestingDepth
+ .bss             fede6357+000001 _osIntSaveDisableCounter
+ .data            fede405c+000001 _osIntSaveDisableGlobalCounter..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+ .text            000129de+000010 _osIntStackOverflow..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+ .text            00014094+00008e _osInterPostTaskHook
+ .text            00014006+00008e _osInterPreTaskHook
+ .bss             fede634e+000001 _osIsOnSystemStack
+ .bss             fede632e+000002 _osIsrStoredInfo
+ .bss             fede61ea+000002 _osLastActiveTaskIndex
+ .bss             fede61e4+000002 _osLastError
+ .bss             fede6350+000001 _osLastErrorCode
+ .text            00012200+000000 _osLeaveFEtoDispatcher
+ .text            00012fa0+00005c _osLeaveISR
+ .bss             fede6353+000001 _osLockDispatcher
+ .text            000148dc+000010 _osMissingTerminateError
+ .bss             fede5a2c+000004 _osQReadyPrios
+ .bss             fede6042+00000a _osQReadyTask
+ .text            0001598e+000398 _osReleaseResource
+ .text            00013902+0000e0 _osRemoveItemMinHeap
+ .text            000138c0+000042 _osRemoveMinItemMinHeap..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosektime.
+ .bss             fede61de+000004 _osResActualTask
+ .bss             fede6355+000001 _osResGlobalOccupationCounter
+ .bss             fede6349+000002 _osResOccupationCounter
+ .bss             fede6330+000004 _osResSavedPrio
+ .text            00012c6e+000076 _osRestoreEnableGlobalNested
+ .text            00012b6c+00008a _osRestoreEnableLevelNested
+ .text            000134fe+000102 _osResumeAllInterrupts
+ .text            000132c0+000116 _osResumeOSInterrupts
+ .text            00012bf6+000078 _osSaveDisableGlobalNested
+ .text            00012ad0+00009c _osSaveDisableLevelNested
+ .data            fede405a+000002 _osSavedIntDisFlag..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+ .data            fede4058+000002 _osSavedIntDisFlagNested..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+ .bss             fede61f0+000002 _osSavedIntLevel
+ .bss             fede61ee+000002 _osSavedIntLevelNested
+ .text            00015232+000200 _osSchedule
+ .text            0001234c+0000d4 _osSchedulePrio
+ .text            00016a2a+000380 _osSetAbsAlarm
+ .text            0001671a+000310 _osSetRelAlarm
+ .text            0001293a+000094 _osShutdownOS
+ .text            000129ce+000010 _osStackOverflow
+ .bss             fede6352+000001 _osStartDispatcher
+ .text            00012ce4+000024 _osStartNewTaskAsm..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+ .text            00012448+00001c _osStartOSasm
+ .text            00012464+000396 _osStartOSc
+ .text            00013dd0+000046 _osStopAlarmTimer
+ .text            00013600+000104 _osSuspendAllInterrupts
+ .text            000133d6+000128 _osSuspendOSInterrupts
+ .text            00014b92+000178 _osSysActivateTask
+ .text            00012ffc+000038 _osSysEnableInterruptSource
+ .text            000127fa+000140 _osSysShutdownOS
+ .bss             fede5a44+000004 _osSystemCounter
+ .osstackbss      fede57fc+0001f4 _osSystemStack
+ .osstackbss      fede408c+000fa0 _osTaskStack0
+ .osstackbss      fede502c+0007d0 _osTaskStack1
+ .bss             fede5a30+00000c _osTcbSP
+ .bss             fede634b+000003 _osTcbTaskState
+ .text            00014d0a+000200 _osTerminateTask
+ .text            00013d20+00007a _osTimerInterrupt
+ .bss             fede604e+000190 _osTraceBuffer
+ .bss             fede604c+000002 _osTraceBufferIndex
+ .text            000148ec+000010 _osUnhandledException
+ .text            000139e2+0001d0 _osWorkAlarms
+ .rodata          0000f524+00009c _oskAlarmAction
+ .rodata          0000faa0+00009c _oskAlarmAutoStart
+ .rodata          0000f2b4+000270 _oskAlarmCallback
+ .rodata          0000f26c+00000c _oskAlarmDefinitions
+ .rodata          0000fb3c+000270 _oskAlarmName
+ .rodata          0000f24c+000004 _oskCounterMaxAllowedValue
+ .rodata          0000f260+000001 _oskISRLevel
+ .rodata          0000f25d+000001 _oskImr32BitPos
+ .rodata          0000f25c+000001 _oskImr32No
+ .rodata          0000f25f+000001 _oskImr8BitPos
+ .rodata          0000f25e+000001 _oskImr8No
+ .rodata          0000f261+000001 _oskIntCtrReg
+ .rodata          0000e434+000022 _oskLevelToPMRMask
+ .rodata          0000f234+000008 _oskResAccessMask
+ .rodata          0000f248+000004 _oskResCeilingPrio
+ .rodata          0000f23c+000008 _oskResCeilingPrioMask
+ .rodata          0000f22c+000008 _oskResName
+ .rodata          0000f830+000270 _oskStaticAlarmCycleTime
+ .rodata          0000f5c0+000270 _oskStaticAlarmTime
+ .rodata          0000f244+000004 _oskSystemStackTop
+ .rodata          0000f268+000003 _oskTcbAutoStart
+ .rodata          0000f250+000006 _oskTcbHomePrio
+ .rodata          0000f256+000006 _oskTcbOILPrio
+ .rodata          0000f29c+00000c _oskTcbReadyPrioMask
+ .rodata          0000f284+00000c _oskTcbStackBottom
+ .rodata          0000f278+00000c _oskTcbStackTop
+ .rodata          0000f265+000003 _oskTcbTaskFlags
+ .rodata          0000f2a8+00000c _oskTcbTaskName
+ .rodata          0000f262+000003 _oskTcbTaskPreemption
+ .rodata          0000f290+00000c _oskTcbTaskStartAddress
+ .rodata          0000f20c+000020 _oskUnusedIsrs32.osDisableUnusedInterrupts.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Ctcb..0
+ .rodata          0000e428+00000c _oskVersionVariant
+ .data            fede4014+000004 _programinit_flag
+ .data            fede4028+000004 _spicnt
+ .bss             fede6346+000001 _taskerr
+ .bss             fede6858+000004 _totalprdtm..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_Kernel.
+                  00000000+000000 _undefined_cleanup
+                  00000000+000000 _undefined_cleanup_func
+ ISR_SECT         00002500+00003c _unused_isr
+ .text            00012210+000000 osCallDispTrap
+ .text            00012100+000000 osISREpilogue
+ .text            00012110+000000 osISREpilogue1
+ .text            00012110+000000 osISREpilogueAbort
+ .text            00012214+000000 osSaveIsrContext
+
+Load Map Thu Jun 19 17:11:57 2014
+Global Cross Reference
+
+.intvect..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5Cdf4010_startup.
+_ADC0_CG0_ISR      
+_ADC1_CG0_ISR      
+_ADValueBuffer     
+_Adc_ConfigureGroupForConversion Adc_Private.o           019da6
+                    Adc.o                   019862
+_Adc_GaaCGmConvStatusMask..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CAdc.
+_Adc_GaaChannelToGroup Adc_PBcfg.o             004abc 004ad0
+_Adc_GaaHwUnitIndex Adc_Private.o           019a78
+_Adc_GaaHwUnitStatus Adc_Private.o           019da0 019d32
+                    Adc.o                   0197dc 01985c 01984a
+_Adc_GaaOperationMask..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CAdc_Private.
+_Adc_GetGroupStatus
+_Adc_GetStreamLastPointer
+_Adc_GpConfigPtr    Adc.o                   019748
+_Adc_GpGroupConfig  Adc_Private.o           019ab0 019d7a 019be2 019d5e
+                    Adc.o                   019754 019822 019806 019894 019886
+                                            0199a4
+_Adc_GpGroupRamData Adc_Private.o           019d4c 019aba 019bfc
+                    Adc.o                   0197be 01975a 019a4e 019a0e 019916
+                                            0199b6 019992 019980 019932
+_Adc_GpHwUnitConfig Adc_Private.o           019b38 019ad8 019cc4 019caa 019c56
+                                            019c48
+                    Adc.o                   01979a 019786 019776 01974e 019814
+                                            0198fe 0198da 0198a2
+_Adc_GpHwUnitRamData Adc_Private.o           019a7c 019bf4
+                    Adc.o                   019760 0198b0
+_Adc_GpRunTimeData  Adc_Private.o           019ad0 019c0e
+                    Adc.o                   019766 0199e2
+_Adc_GroupCompleteMode Adc_Private.o           019a88
+_Adc_GstConfiguration
+_Adc_GstGroupConfig Adc_PBcfg.o             004aec
+_Adc_GstGroupRamData Adc_PBcfg.o             004af0
+_Adc_GstHWUnitConfig Adc_PBcfg.o             004ae8
+_Adc_GstHwUnitRamData Adc_PBcfg.o             004af4
+_Adc_GstImrAddMask  Adc_PBcfg.o             004a94 004ab0
+_Adc_GstRunTimeData Adc_PBcfg.o             004af8
+_Adc_GucMaxSwTriggGroups Adc_Private.o           019bba 019b92 019d8e 019d14
+                    Adc.o                   01976e
+_Adc_Init          
+_Adc_Isr            Adc_Irq.o               019568 01969c
+_Adc_SetupResultBuffer
+_Adc_StartGroupConversion
+_Adc_StateTransition Adc.o                   0199fe
+_Adc_StopGroupConversion
+_AddKERNEL_b_QueueFrontItem
+_AddKERNEL_b_QueueInitPhase
+_AddKERNEL_b_QueueItem libCleaPlusOs.a(Sys_QueueHandler.o) 016434
+                    libCleaPlusOs.a(Sys_Kernel.o) 01419e
+                    libCleaPlusOs.a(Sys_AlarmHandler.o) 015e6a 015f14
+_AlmCurUseNum       libCleaPlusOs.a(Sys_AlarmHandler.o) 01605e 01605a 016052 01604e 015eba
+                                            015eb0 015e34 015e30 015eac 01603c
+                                            015fbe 015fb4 015fb0 0160ee 0160e4
+                                            0160e0
+_AlmCvtCoeff..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_AlarmHandler.
+_AlmDurationBuff..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_AlarmHandler.
+_AlmErrCode         libCleaPlusOs.a(Sys_AlarmHandler.o) 016082 01607e 016142 01613e 0161a6
+                                            0161a2 016208 016204
+_AlmMaxUseNum       libCleaPlusOs.a(Sys_AlarmHandler.o) 016066 016062 01604a 016046 015e3c
+                                            015e38
+_Appl_10mS_Task    
+_CAN_WAKEUP_TXCANCEL_ISR Can_Irq.o               010c4e 010c28 010c20
+_CaKERNEL_100msTaskList
+_CaKERNEL_10msATaskList libCleaPlusOs.a(Sys_Kernel.o) 00fdbc
+_CaKERNEL_10msBTaskList libCleaPlusOs.a(Sys_Kernel.o) 00fdc0
+_CaKERNEL_1KmsTaskList
+_CaKERNEL_200msTaskList
+_CaKERNEL_20msTaskList libCleaPlusOs.a(Sys_Kernel.o) 00fdc4
+_CaKERNEL_2p5msTaskList libCleaPlusOs.a(Sys_Kernel.o) 00fdb0
+_CaKERNEL_500msTaskList
+_CaKERNEL_50msTaskList
+_CaKERNEL_5msATaskList libCleaPlusOs.a(Sys_Kernel.o) 00fdb4
+_CaKERNEL_5msBTaskList libCleaPlusOs.a(Sys_Kernel.o) 00fdb8
+_CaKERNEL_a_EventFuncs libCleaPlusOs.a(Sys_Kernel.o) 01438e
+_CaKERNEL_a_PrdFuncs..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_Kernel.
+_CaKERNEL_fp_CeEVT_e_Test Api_SchdTbl.o           00e31c
+_CaLED_h_ADimCfg   
+_CaLED_h_PWMCfg     IoHwAb_LED.o            01d130 01ce90 01d0ca
+_CaLED_h_RTCfg     
+_CaPwmA_h_SimChCfg 
+_CanIf_ControllerBusOff Can_MainServ.o          0108da
+_CanIf_ReadRxData   CanIf_Cbk.o             01008a 010078
+                    IoHwAb_Can.o            0117dc
+_CanIf_RxIndication CanIf_Cbk.o             01004a 010038
+                    Can_MainServ.o          010b1e
+_CanIf_TxConfirmation Can_MainServ.o          0109f0
+_CanTrcv_30_Tja1145_SpiIndicationL_BB
+_CanTrcv_30_Tja1145_SpiIndicationM_BB
+_CanTrcv_30_Tja1145_SpiIndicationN_BB
+_Can_AFCan_GaaCanTxPduId Can_PBcfg.o             00e030 00e044
+_Can_AFCan_GaaCntrlArrayId Can_PBcfg.o             00e058
+_Can_AFCan_GaaConfigType IoHwAb.o                0179ea
+_Can_AFCan_GaaControllerConfigType Can_PBcfg.o             00e050
+_Can_AFCan_GaaHrh   Can_PBcfg.o             00e070 00e0b4
+_Can_AFCan_GaaHth   Can_PBcfg.o             00e054 00e074 00e0b8
+_Can_AFCan_GaaPBByteArray Can_PBcfg.o             00e06c 00e084 00e0b0 00e0c8
+_Can_CheckWakeup    Can_Wakeup.o            0102f0 0102da 0102b4 0102a0 010292
+                                            010280 010272 010260
+_Can_DisableControllerInterrupts Can_Int.o               010d7e 010d6c 010d5a 010d4c 010d3a
+                                            010d92 010d9c 010ddc 010de0 010de4
+                                            010df6
+_Can_EnableControllerInterrupts Can_Int.o               010e58 010e6a 010e78 010e8a 010e9c
+                                            010eb0 010eba 010ece
+                    IoHwAb.o                017a0a 017a04
+_Can_GblCanStatus   Can_Write.o             0100c8
+                    Can_Wakeup.o            010256
+                    Can_ModeCntrl.o         01033e
+                    Can_MainServ.o          01076a 0107f6 01088a 01091e
+                    Can_Int.o               010d30 010e4e
+                    Can.o                   011388 0112f4 010f6e
+_Can_GpCntrlIdArray Can_Wakeup.o            010242
+                    Can_ModeCntrl.o         01037e
+                    Can_Int.o               010d70 010e8e
+                    Can.o                   011012 0113d0
+_Can_GpFirstController Can_Wakeup.o            0102c0
+                    Can_ModeCntrl.o         0103a6
+                    Can_MainServ.o          010788 010814 0108a8 01093c
+                    Can_Irq.o               010c0c
+                    Can_Int.o               010da4 010ed6
+                    Can.o                   011022 011402 010fda
+_Can_GpFirstHth     Can_Write.o             010166
+                    Can_MainServ.o          0109e0
+                    Can.o                   011004
+_Can_GstModeFuncPtr Can_ModeCntrl.o         010404
+_Can_GucFirstHthId  Can_Write.o             0100b6
+                    Can.o                   010fcc
+_Can_GucIntCounter  Can_Int.o               010d24 010e46
+                    Can.o                   011252
+_Can_GucLastCntrlId Can_Wakeup.o            010276
+                    Can_ModeCntrl.o         01035e
+                    Can_Int.o               010d50 010e6e
+                    Can.o                   0113ac 010ff6
+_Can_GucLastHthId   Can_Write.o             0100f0
+                    Can.o                   010fe8
+_Can_Init           Can.o                   011242 0111a2 011060 0112e8 0112e6
+                                            0112e2 0112ae 01124a 011246 011230
+                                            01122c 011214 011212 011200 0111d0
+                                            0111cc 0111c8 0111a6 01119a 011188
+                                            01113e 01113a 011136 011114 0110fc
+                                            0110ae 011066 011064 01105c 0112ee
+                                            010f78 010f8c 010f9e 010fac 010fc0
+                                            010fc2
+                    IoHwAb.o                0179ee
+_Can_InitController Can.o                   0114c2 0114b2 0114b0 0114ac 0114a8
+                                            011490 01148e 01148a 011486 011476
+                                            011460 01145e 01145a 011456 01142e
+                                            01142c 011418 0113fa 0113e8 0113c8
+                                            0113b6 0113a4 011392 011374 01168e
+                                            011682 011676 011674 011650 01161c
+                                            011608 011604 0115ec 0115ea 0115da
+                                            0115a8 0115a4 0115a0 01157e 011576
+                                            011566 01151a 011516 011512 0114f0
+_Can_MainFunction_20mS IoHwAb_Can.o            0117cc
+                    Api_SchdTbl.o           00e308
+_Can_MainFunction_BusOff Can_MainServ.o          010894 0108a4 0108b8 0108c8 0108ce
+                                            0108e6
+                    IoHwAb_Can.o            01178a
+_Can_MainFunction_Read Can_MainServ.o          010800 010810 010824 010834 01083c
+                                            010852
+                    IoHwAb_Can.o            011782 0117ce
+_Can_MainFunction_Wakeup Can_MainServ.o          010928 010938 01094c 010958 010974
+                    IoHwAb_Can.o            01178e
+_Can_MainFunction_Write Can_MainServ.o          010774 010784 01079c 0107a4 0107ac
+                                            0107c2
+                    IoHwAb_Can.o            011786
+_Can_RxProcessing   Can_MainServ.o          010b30 010b26 010afc 010af2 010ae0
+                                            010aae 010846
+_Can_SetControllerMode Can_ModeCntrl.o         01035a 010348 010368 01037a 01038c
+                                            01039e 0103b8 0103bc 0103c0 0103c4
+                                            0103c8 0103cc 0103d0 0103d4 0103e8
+                                            0103fc
+                    IoHwAb.o                0179fe 0179f6
+_Can_SleepMode      Can_ModeCntrl.o         00e0f0 0104aa 01049e 01049a 010496
+                                            01047e 010478 010474
+_Can_StartMode      Can_ModeCntrl.o         00e0e8 0105ec 0105e8 0105da 0105b4
+                                            0105f0 0105fe 010606 01061e 01062e
+                                            01063a
+_Can_StopMode       Can_ModeCntrl.o         00e0ec 0106b2 0106cc 0106e2 0106e6
+                                            010716 01071c
+                    Can_MainServ.o          0108d2
+_Can_TxConfirmationProcessing Can_MainServ.o          0109fc 0107b4
+_Can_WakeupMode     Can_ModeCntrl.o         00e0f4 010560 010554 010548 010544
+                                            010540 010522 010516 010512 01050e
+                    Can_MainServ.o          010960
+                    Can_Irq.o               010c30
+_Can_Write          Can_Write.o             0100d2 0100e4 0100ec 0100fa 01010e
+                                            010120 010128 01013a 010142 010156
+                                            01017e 0101a0 0101a4 0101a8 0101cc
+                                            0101de 0101f2
+                    IoHwAb_Can.o            0117ba
+_CeLED_u_TurnLampDuty
+_ChainHash..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_AlarmHandler.
+_Clbk4AppEvtPush    libCleaPlusOs.a(tcb.o)  00f2b4 00f2b8 00f2bc 00f2c0 00f2c4
+                                            00f2c8 00f2cc 00f2d0 00f2d4 00f2d8
+                                            00f2dc 00f2e0 00f2e4 00f2e8 00f2ec
+                                            00f2f0 00f2f4 00f2f8 00f2fc 00f300
+                                            00f304 00f308 00f30c 00f310 00f314
+                                            00f318 00f31c 00f320 00f324 00f328
+                                            00f32c 00f330 00f334 00f338 00f33c
+                                            00f340 00f344 00f348 00f34c 00f350
+                                            00f354 00f358 00f35c 00f360 00f364
+                                            00f368 00f36c 00f370 00f374 00f378
+                                            00f37c 00f380 00f384 00f388 00f38c
+                                            00f390 00f394 00f398 00f39c 00f3a0
+                                            00f3a4 00f3a8 00f3ac 00f3b0 00f3b4
+                                            00f3b8 00f3bc 00f3c0 00f3c4 00f3c8
+                                            00f3cc 00f3d0 00f3d4 00f3d8 00f3dc
+                                            00f3e0 00f3e4 00f3e8 00f3ec 00f3f0
+                                            00f3f4 00f3f8 00f3fc 00f400 00f404
+                                            00f408 00f40c 00f410 00f414 00f418
+                                            00f41c 00f420 00f424 00f428 00f42c
+                                            00f430 00f434 00f438 00f43c 00f440
+                                            00f444 00f448 00f44c 00f450 00f454
+                                            00f458 00f45c 00f460 00f464 00f468
+                                            00f46c 00f470 00f474 00f478 00f47c
+                                            00f480 00f484 00f488 00f48c 00f490
+                                            00f494 00f498 00f49c 00f4a0 00f4a4
+                                            00f4a8 00f4ac 00f4b0 00f4b4 00f4b8
+                                            00f4bc 00f4c0 00f4c4 00f4c8 00f4cc
+                                            00f4d0 00f4d4 00f4d8 00f4dc 00f4e0
+                                            00f4e4 00f4e8 00f4ec 00f4f0 00f4f4
+                                            00f4f8 00f4fc 00f500 00f504 00f508
+_ClearKERNEL_Queue 
+_ClrBadWeatherModeOut LEDLightControl.o       01c8f8
+_ClrCityModeOut     LEDLightControl.o       01c8d4
+_ClrCornerLampOut   LEDLightControl.o       01c91a
+_ClrDO_DevCtrl      IoHwAb_Do.o             01cd16 01ccee
+_ClrDRLOut          LEDLightControl.o       01ca02 01ca36
+_ClrHighBeamOut     LEDLightControl.o       01c9c0
+_ClrHighSpeedModeOut LEDLightControl.o       01c8e6
+_ClrLowBeamOut      LEDLightControl.o       01c9e2
+_ClrParkLampOut     LEDLightControl.o       01ca18 01ca32
+_ClrTurnLampOut     LEDLightControl.o       01c978 01c98c 01c996
+_Clr_LED1          
+_Clr_LowBeam2      
+_Clr_TurnLamp      
+_Dem_ReportErrorStatus Can_Write.o             0101fc
+                    Can_ModeCntrl.o         010568 01055c 0104b2 0105f8 010724
+                    Can_Int.o               010dec
+                    Can.o                   0112b6 01120a 011192 011696 01168a
+                                            01167e 0115e4 011570
+                    Mcu.o                   01a74c 01a376 01a308 01a416 01a284
+                                            01a232 01a1a0 01a15e 019fd4 019f84
+                                            019e80 01a7ae 01a810 01a6c4 01a656
+                                            01a5e6 01a556 01a4b6 01c32c 01bc50
+                                            01bbe6 01bb72 01bb1c 01baa2 01a920
+                                            01a9f8 01aae0 01ab54 01abc6 01ac4c
+                                            01acb0 01ad14 01ae04 01af60 01b01e
+                                            01b216 01b25c 01b2ee 01b344 01b392
+                                            01b478 01b4d0 01b544 01b59a 01b5e8
+                                            01b67e 01b76e 01b7be 01b868 01b886
+                                            01b8e4 01bd04 01bd38 01bde0 01be10
+                                            01be6a 01bec4 01befa 01bf54 01bfae
+                                            01c008 01c098 01c0f0 01c1de 01c21c
+                    Port.o                  018afa 018a52 0189a6 0188fe 0182ee
+                                            01834a
+_Det_ReportError    Can_Write.o             0100de 010106 01011a 010134 01014e
+                    Can_Wakeup.o            0102ac 01028c 01026c
+                    Can_ModeCntrl.o         010354 010374 010398 0103e0 0103f4
+                    Can_MainServ.o          010780 01080c 0108a0 010934
+                    Can_Int.o               010d8a 010d66 010d46 010e64 010e84
+                                            010ea8
+                    Can.o                   011424 0113f4 0113c2 01139e 011380
+                                            010f84 010f98 010fb8
+_Dio_GstChannelGroupData
+_Dio_GstPortChannel Dio.o                   01c3a8 01c3de
+_Dio_GstPortGroup   Dio.o                   01c35c 01c386
+_Dio_ReadChannel    Dio.o                   01c3ce 01c3c0 01c3ba
+                    IoHwAb_Api.o            01770e 0176ee 01772e 01774e 017770
+                                            017792 0177b4 0177d6 0177f8 017818
+_Dio_ReadChannelGroup Dio.o                   01c42e 01c428
+_Dio_ReadPort       Dio.o                   01c374 01c36e
+_Dio_WriteChannel   Dio.o                   01c404 01c3fc
+                    IoHwAb_Do.o             01cb90
+_Dio_WriteChannelGroup
+_Dio_WritePort     
+_DoAb_Init          IoHwAb_Do.o             01cac8
+_DoAb_UpdateChannel IoHwAb_Do.o             01cbdc 01cbba 01cba0 01cb9c 01cb94
+                                            01cb88 01cb7a 01cb54 01cb4e 01cb32
+                                            01cb14 01cb06
+                    Api_SchdTbl.o           00e350
+_EH_CornerLampOut   LEDLightControl.o       01c918 01c912 01ca72
+_EH_FANControl      LEDLightControl.o       01ca7a
+_EH_HighBeamOut     LEDLightControl.o       01c9b8 01c9be 01ca6a
+_EH_LightShapeOut   LEDLightControl.o       01c8de 01c8d2 01c8cc 01c8e4 01c8f0
+                                            01c8f6 01ca76
+_EH_LowBeamOut      LEDLightControl.o       01c9da 01c9e0 01ca66
+_EH_ParkDRLOut      LEDLightControl.o       01c9fc 01ca06 01ca0e 01ca16 01ca20
+                                            01ca28 01ca30 01ca62
+_EH_TurnLampOut     LEDLightControl.o       01c96c 01c962 01c95c 01c948 01c976
+                                            01c97c 01c986 01c990 01ca6e
+_EcuM_CheckWakeup   Can_Irq.o               010c40
+                    Gpt_LLDriver.o          0194a4
+_EcuM_CheckWakeupEvent
+_EcuM_SetWakeupEvent Gpt.o                   01910e
+_EcuM_ValidateWakeupEvent
+_EnterDataShare    
+_ErrorHook          libCleaPlusOs.a(osekerr.o) 0148c4
+_ExitDataShare     
+_GaaByteArrayCan    IoHwAb_Can.o            0117ac
+_GaaByteArrayCanRdData IoHwAb_Can.o            0117d8
+                    IoHwAb_Api.o            0175dc 0175f2 017608 01761e 017634
+                                            01764a 017660 017676 01768c 0176a2
+                                            0176b8 0176ce
+_Gdd100mSFlag      
+_Gdd10mSFlag       
+_Gdd1mSFlag         main.o                  01758c
+_GddDataBufferPtr0 
+_GddSetupBuffer0   
+_GddVersionInfo    
+_GetBadWeatherModeOut
+_GetBadWeatherModeSwitchSwitch LEDLightControl.o       01c8ea
+_GetCityModeOut    
+_GetCityModeSwitchSwitch LEDLightControl.o       01c8c6
+_GetCornerLampOut  
+_GetCornerLampSwitch LEDLightControl.o       01c90c
+_GetCurHwTimer      libCleaPlusOs.a(Sys_Kernel.o) 014286 014260
+                    libCleaPlusOs.a(Sys_RuntimeHandler.o) 0145b4 01460e
+_GetDO_OutputVal   
+_GetDRLOut         
+_GetDRLSwitch       LEDLightControl.o       01ca10 01ca2a
+_GetHighBeamOut    
+_GetHighBeamSwitch  LEDLightControl.o       01c9b2
+_GetHighSpeedModeOut
+_GetHighSpeedModeSwitchSwitch LEDLightControl.o       01c8d8
+_GetKERNEL_w_QueueItem libCleaPlusOs.a(Sys_QueueHandler.o) 016426
+                    libCleaPlusOs.a(Sys_Kernel.o) 01437e 014236
+_GetLowBeamOut     
+_GetLowBeamSwitch   LEDLightControl.o       01c9d4
+_GetParkLampOut    
+_GetParkLampSwitch  LEDLightControl.o       01c9f6 01ca08 01ca22
+_GetTurnLampOut    
+_GetTurnLampSwitch  LEDLightControl.o       01c942
+_GlobalCanRxData    CanIf_Cbk.o             01002c 01006c
+_Gpt_CbkNotification Gpt_LLDriver.o          019494 01947a 01946a
+                    Gpt_Irq.o               018d54
+_Gpt_Cbk_CheckWakeup Gpt.o                   01912e 019122 01910a 019106
+_Gpt_DeInit        
+_Gpt_DisableNotification
+_Gpt_DisableWakeup  Gpt.o                   01905e 019056
+_Gpt_EnableNotification Gpt.o                   018f88
+_Gpt_EnableWakeup   Gpt.o                   0190a8 0190a0
+_Gpt_GaaTimerChIdx  Gpt_PBcfg.o             0042a8
+_Gpt_GetTimeElapsed
+_Gpt_GetTimeRemaining
+_Gpt_GetVersionInfo
+_Gpt_GpChannelConfig Gpt_LLDriver.o          01914e 0193c8 0191bc 01923e 019292
+                                            0192e2 019366 019496 0193fa
+                    Gpt.o                   018e2c 018fd6 0190e6
+_Gpt_GpChannelRamData Gpt_LLDriver.o          01919a 01918c 01917e 019218 01920a
+                                            0191fc 019250 0192a4 0194a8 0192f4
+                                            019378 01946c
+                    Gpt.o                   018ff0 018e34 018f44 018f8a 018fa8
+                                            019060 0190aa 019112 0190ec
+_Gpt_GpChannelTimerMap Gpt_LLDriver.o          01945c
+                    Gpt.o                   018e3c 018e82 018ec2 018f02 018f3c
+                                            018f70 018fa0 019048 019092
+_Gpt_GstChannelConfig Gpt_PBcfg.o             0042a4
+_Gpt_GstChannelFunc Gpt_LLDriver.o          01947c
+                    Gpt.o                   018f78
+_Gpt_GstChannelRamData Gpt_PBcfg.o             0042ac
+_Gpt_GstConfiguration
+_Gpt_GucGptDriverMode Gpt_LLDriver.o          019464
+                    Gpt.o                   018e44 018fda 019050 01909a
+_Gpt_HW_DeInit      Gpt_LLDriver.o          019232 0191e8
+                    Gpt.o                   018e5c
+_Gpt_HW_DisableWakeup Gpt_LLDriver.o          0193e0 0193da
+                    Gpt.o                   01900a 01905a
+_Gpt_HW_EnableWakeup Gpt_LLDriver.o          019412 01940c
+                    Gpt.o                   0190a4
+_Gpt_HW_GetTimeElapsed Gpt_LLDriver.o          019278 019274 01926c 01926a 019268
+                                            019284 019266 019262 019260
+                    Gpt.o                   018e8c
+_Gpt_HW_GetTimeRemaining Gpt_LLDriver.o          0192d4 0192cc 0192c8 0192c0 0192be
+                                            0192bc 0192ba 0192b6 0192b4
+                    Gpt.o                   018ecc
+_Gpt_HW_Init        Gpt_LLDriver.o          0191b4 019164
+                    Gpt.o                   018e40
+_Gpt_HW_StartTimer  Gpt_LLDriver.o          019354 019342 019340 01933e 01933c
+                                            019338 019336 019308
+                    Gpt.o                   018f0e
+_Gpt_HW_StopTimer   Gpt_LLDriver.o          0193b8 0193ae 0193ac 0193aa 0193a8
+                                            0193a4 0193a2 01938c
+                    Gpt.o                   018fec 018f56
+_Gpt_Init           Gpt.o                   018e26
+_Gpt_SetMode        Gpt.o                   019018 019006 018fe8 018fe0
+_Gpt_StartTimer    
+_Gpt_StopTimer      Gpt.o                   018f52
+_Icu_Edge_Detect_1 
+_InsertHash..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_AlarmHandler.
+_InterruptSetup    
+_IoHwAb_Adc_Notification_Group0
+_IoHwAb_GetSW_BadWeatherMode
+_IoHwAb_GetSW_CityMode
+_IoHwAb_GetSW_ControlEnable
+_IoHwAb_GetSW_CornerLamp
+_IoHwAb_GetSW_DRL  
+_IoHwAb_GetSW_HighBeam
+_IoHwAb_GetSW_HighSpeed
+_IoHwAb_GetSW_LowBeam
+_IoHwAb_GetSW_ParkLamp
+_IoHwAb_GetSW_TurnLamp
+_IoHwAb_ILBendingLeftControl IoHwAb_Api.o            017614 017610
+                    LEDLightControlRTE.o    01c6d2
+_IoHwAb_ILBendingRightControl IoHwAb_Api.o            0175fe 0175fa
+_IoHwAb_ILCLevelLowBeam IoHwAb_Api.o            0175e8 0175e4
+_IoHwAb_ILDRLControl IoHwAb_Api.o            017698 017694
+                    LEDLightControlRTE.o    01c692
+_IoHwAb_ILELevelHighSpeedModeControl IoHwAb_Api.o            0176ae 0176aa
+                    LEDLightControlRTE.o    01c712
+_IoHwAb_ILHighBeamControl IoHwAb_Api.o            017682 01767e
+                    LEDLightControlRTE.o    01c672
+_IoHwAb_ILLowBeamControl IoHwAb_Api.o            01766c 017668
+                    LEDLightControlRTE.o    01c652
+_IoHwAb_ILParkLampControl IoHwAb_Api.o            017656 017652
+                    LEDLightControlRTE.o    01c632
+_IoHwAb_ILTurnLeftControl IoHwAb_Api.o            017640 01763c
+                    LEDLightControlRTE.o    01c6b2
+_IoHwAb_ILTurnRightControl IoHwAb_Api.o            01762a 017626
+_IoHwAb_ILVLevelCityModeControl IoHwAb_Api.o            0176c4 0176c0
+                    LEDLightControlRTE.o    01c6f2
+_IoHwAb_ILWLevelBadWeatherControl IoHwAb_Api.o            0176da 0176d6
+                    LEDLightControlRTE.o    01c732
+_IoHwAb_Init        IoHwAb.o                0179b0
+                    main.o                  017556
+_IoHwAb_SchM10ms   
+_IoHwAb_SetBadWeather main.o                  017532
+_IoHwAb_SetHighSpeed main.o                  01752a
+                    LEDPWMActOutRTE.o       01c58c
+_IoHwAb_SetLED1     main.o                  017502
+                    LEDPWMActOutRTE.o       01c610
+_IoHwAb_SetLED2     main.o                  01750a
+                    LEDPWMActOutRTE.o       01c518
+_IoHwAb_SetLED3     main.o                  017512
+_IoHwAb_SetLowBeam1 main.o                  01751a
+                    LEDPWMActOutRTE.o       01c49e
+_IoHwAb_SetLowBeam2 main.o                  017522
+                    LEDPWMActOutRTE.o       01c4a4
+_IoHwAb_SetParkLamp main.o                  017542
+                    LEDPWMActOutRTE.o       01c4de
+_IoHwAb_SetTurnLamp main.o                  01753a
+                    LEDPWMActOutRTE.o       01c552
+_IsTmActvGeneral   
+_KaDO_h_PortConfig  IoHwAb_Do.o             01cafa
+_KeBSP_w_CourtesyLampPwmPeriod
+_KeLED_u_BadWeatherLampDuty
+_KeLED_u_CityModeLampDuty
+_KeLED_u_CornerLampDuty
+_KeLED_u_DRLDuty   
+_KeLED_u_HighBeamDuty
+_KeLED_u_HighSpeedLampDuty
+_KeLED_u_LightingShowMode
+_KeLED_u_LowBeamDuty
+_KeLED_u_ParkLampDuty
+_KeLED_u_TurnLampDuty
+_LEDPWMOutMainFunction Api_SchdTbl.o           00e344
+_LEDSwitchMainFunction Api_SchdTbl.o           00e340
+_LED_Init           IoHwAb_LED.o            01cee2
+_LED_SetHwLED_TLD   IoHwAb_LED.o            01d07c 01d06a 01d060 01d05c 01d042
+                    IoHwAb_Api.o            017892 017932 01795a 017982
+_LED_SetHwLED_TPS   IoHwAb_LED.o            01cfc0 01cfae 01cfa4 01cfa0 01cf86
+                    IoHwAb_Api.o            017842 01786a 0178ba 0178e2 01790a
+_LaKERNEL_w_EventTaskQueueBuffer..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_QueueHandler.
+_LaKERNEL_w_PeriodTaskQueueBuffer..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_QueueHandler.
+_LastStamp..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler.
+_Mcu_ConfigureAWO7..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+_Mcu_CpuClockPrepare..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+_Mcu_CpuClockRestore..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+_Mcu_DeepStopPrepare..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+_Mcu_DistributePllClock IoHwAb.o                0179b2
+_Mcu_GaaCkscRegOffset Mcu_PBcfg.o             0041cc
+_Mcu_GaaCkscRegValue Mcu_PBcfg.o             0041d0
+_Mcu_GaaClkSettingIndexMap Mcu_PBcfg.o             0041c0
+_Mcu_Gblckscstatus..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+_Mcu_GetPllStatus   IoHwAb.o                0179aa
+_Mcu_GetResetRawValue
+_Mcu_GetResetReason
+_Mcu_GpCkscRegOffset Mcu.o                   01a6ee 019e18 01a574 01bb98 01ba32
+                                            01aa70 01abee
+_Mcu_GpCkscRegValue Mcu.o                   01a700 019e22 01a586 01aa82 01ac00
+_Mcu_GpClockSetting Mcu.o                   01a764 01a3b8 01a39e 01a390 01a31c
+                                            01a458 01a43e 01a430 01a2aa 01a1d4
+                                            01a1ba 01a0f0 01a0e0 01a0d2 01a0ae
+                                            01a0aa 01a7c6 01a832 01a6f8 01a6e6
+                                            01a6de 01a668 01a5f8 01a57e 01a56c
+                                            01a564 01a4f8 01a4de 01a4d0 01bc06
+                                            01bbfa 01bb90 01bb88 01bac4 01bab8
+                                            01ba2a 01ba22 01aa60 01aa68 01aa7a
+                                            01aaf8 01ab6c 01abde 01abe6 01abf8
+                                            01ac66 01acca 01ae38
+_Mcu_GpConfigPtr    Mcu.o                   01a164 01a09e 01a088 019ec6 019e84
+                                            019e50 01a864 01a84a 019e40 019e32
+                                            019e1c 019e12 019e0e 01a894 01a8a8
+                                            01a92a 01a944 01ad2e 01ad48 01ad78
+                                            01ad8c 01b0e4 01b96a
+_Mcu_GstClockSetting Mcu_PBcfg.o             0041c4
+_Mcu_GstConfiguration IoHwAb.o                01799a
+_Mcu_GstModeSetting Mcu_PBcfg.o             0041c8
+_Mcu_GstRamSetting  Mcu.o                   01a01e
+_Mcu_GulCkscA07Val..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+_Mcu_Init           IoHwAb.o                01799e
+_Mcu_InitClock      IoHwAb.o                0179a4
+_Mcu_InitRamSection
+_Mcu_Iso1SoftWakeUp..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+_Mcu_MaskClear_WakeUpFactor
+_Mcu_RestartClocks..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CMcu.
+_Mcu_SetMode        IoHwAb.o                0179b8
+_OSTM0_CH0_ISR     
+_OSTM_Notification  main.o                  0175aa 01759a
+                    Gpt_Lcfg.o              004128
+_PWMInit            main.o                  01755a
+_Port_GpConfigPtr   Port.o                  01828e 0184d0 0184ca 01838e 0184b6
+                                            0184b0 01849c 018486 0187e6 0187b2
+                                            0187a8 0187a2 01877a 01876e 018762
+                                            018756 01874a 01873e 018732 018726
+                                            01871c 018712 01870c 018c92 018c80
+                                            018c7a
+_Port_GstConfiguration IoHwAb.o                0179bc
+_Port_Init          Port.o                  01828c 0182a6 0182d2 0182dc 0182e6
+                                            0182fa 01832e 018338 018342
+                    IoHwAb.o                0179c0
+_Port_InitConfig..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CPort.
+_Port_JTAG_FuncCtrlRegs Port_PBcfg.o            004554
+_Port_JTAG_PMSRRegs Port_PBcfg.o            004558
+_Port_JTAG_Regs     Port_PBcfg.o            004550
+_Port_Num_FuncCtrlRegs Port_PBcfg.o            004548
+_Port_Num_PMSRRegs  Port_PBcfg.o            00454c
+_Port_Num_Regs      Port_PBcfg.o            004544
+_Port_RefreshPortDirection
+_Port_RefreshPortInternal..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CPort.
+_Port_SearchDirChangeablePin..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CPort.
+_Port_SearchModeChangeablePin..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CPort.
+_Port_SetPinDirection Port.o                  0183f8 0183cc 0183b2 0183a6
+_Port_SetPinMode    Port.o                  018614 018600 0185f2 0185d8 0185c4
+                                            0185b6 01859c 01855c 018524 0184f4
+                                            0184c8 0184c0 0184ae
+_PostTaskHook       libCleaPlusOs.a(tcb.o)  01411a
+_PrdTskLoader..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_Kernel.
+_PreAlarmHook       libCleaPlusOs.a(tcb.o)  013d58
+_PreTaskHook        libCleaPlusOs.a(tcb.o)  01408c
+_Pwm_GaaChannelIdleStatus Pwm_PBcfg.o             004a68
+_Pwm_GaaTimerChIdx  Pwm_PBcfg.o             004a64
+_Pwm_GpChannelConfig Pwm_LLDriver.o          018092 017f94 017bfe 017a52 017db2
+                    Pwm.o                   0173fe
+_Pwm_GpChannelIdleStatus Pwm_LLDriver.o          018020 017ff6 017efa 017ed0 017d24
+                                            017cfa 017c8a 017c60 017af4 018200
+                                            0181a4 018144 017e3c 017e12
+                    Pwm.o                   01740e
+_Pwm_GpChannelTimerMap Pwm.o                   017406 01743e 01748a 0174ca
+_Pwm_GpTAUABCUnitConfig Pwm_LLDriver.o          0180c0 017fac 017e8a 017cc4 017c2a
+                                            017b10 017a4e 017dce
+                    Pwm.o                   0173f6
+_Pwm_GstChannelConfig Pwm_PBcfg.o             004a60
+_Pwm_GstConfiguration IoHwAb.o                0179e0
+_Pwm_GstTAUABCChannelConfig Pwm_PBcfg.o             0046a0 0046bc 0046d8 0046f4 004710
+                                            00472c 004748 004764 004780 00479c
+                                            0047b8 0047d4 0047f0 00480c 004828
+                                            004844 004860 00487c 004898 0048b4
+                                            0048d0 0048ec 004908 004924 004940
+                                            00495c 004978 004994 0049b0 0049cc
+                                            0049e8 004a04 004a20 004a3c
+_Pwm_GstTAUABCUnitConfig Pwm_PBcfg.o             004a5c
+_Pwm_HW_CalculateDuty Pwm_LLDriver.o          01802e 017f14 017d32 017c98 017aec
+                                            017e4c
+_Pwm_HW_Init        Pwm.o                   017412
+_Pwm_HW_SetDutyCycle Pwm_LLDriver.o          018056
+                    Pwm.o                   01744a
+_Pwm_HW_SetDuty_FixedPeriodShifted Pwm_LLDriver.o          017c14
+_Pwm_HW_SetOutputToIdle Pwm.o                   0174d4
+_Pwm_HW_SetPeriodAndDuty Pwm.o                   017498
+_Pwm_Init           Pwm.o                   0173f0
+                    IoHwAb.o                0179e4
+_Pwm_Notification_0
+_Pwm_Notification_1
+_Pwm_Notification_2
+_Pwm_SetDutyCycle   IoHwAb_LED.o            01d292 01d286 01d27e 01d264 01d25a
+                                            01d252 01d238 01d22c 01d222 01d206
+                                            01d1fc 01d1e2 01d1d8 01d1bc 01d1b2
+                                            01d198 01d18e
+_Pwm_SetOutputToIdle
+_Pwm_SetPeriodAndDuty IoHwAb_LED.o            01d160 01d0fa 01cf20 01cf10 01cf00
+                                            01cef0
+_QueryKERNEL_b_ItemInQueue
+_QueryKERNEL_b_QueueEmpty
+_QueryKERNEL_u_QueueStoredNum
+_RESET              df4010_startup.o        000000
+_RemoveKERNEL_b_QueueItem
+_ResumeAllInterrupts Can_Wakeup.o            0102ec
+                    Can.o                   0112aa
+_SPI_Sequence0_Notification
+_SPI_Sequence1_Notification
+_SPI_Sequence2_Notification
+_SPI_Sequence3_Notification
+_SaLED_b_HwLEDDevCtrlActv..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_LED.
+_SaLED_h_HwLEDPeriodDuty..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_LED.
+_SearchHash..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_AlarmHandler.
+_SetBadWeatherLightOutPWMDuty LEDPWMActOut.o          01173c
+_SetBadWeatherModeOut LEDLightControl.o       01c8f2
+_SetCityModeOut     LEDLightControl.o       01c8ce
+_SetCornerLampOut   LEDLightControl.o       01c914
+_SetCornerLampOutPWMDuty LEDPWMActOutRTE.o       01c5bc 01c5b2
+_SetDO_AppCtrl      IoHwAb_Do.o             01ce1a 01cdce 01cda6 01cd5c
+                    LEDPWMActOutRTE.o       01c5c2 01c5b8
+                    LEDLightControl.o       01ca4e
+_SetDO_DevCtrl      IoHwAb_Do.o             01cc60 01cc38
+_SetDRLOut          LEDLightControl.o       01ca1c
+_SetHighBeamOut     LEDLightControl.o       01c9ba
+_SetHighBeamOutPWMDuty LEDPWMActOut.o          01175c
+_SetHighSpeedLightOutPWMDuty
+_SetHighSpeedModeOut LEDLightControl.o       01c8e0
+_SetLowBeam1OutPWMDuty LEDPWMActOut.o          01174c
+_SetLowBeam2OutPWMDuty LEDPWMActOut.o          011754
+_SetLowBeamOut      LEDLightControl.o       01c9dc
+_SetParkLampOut     LEDLightControl.o       01c9fe
+_SetParkLampOutPWMDuty LEDPWMActOut.o          011744
+_SetTurnLampOut     LEDLightControl.o       01c95e
+_SetTurnLampOutPWMDuty LEDPWMActOut.o          011764
+_Set_LED1          
+_Set_LED3          
+_Set_LowBeam2      
+_Set_TurnLamp      
+_ShutdownHook       libCleaPlusOs.a(osek.o) 012920
+                    libCleaPlusOs.a(Sys_QueueHandler.o) 0162fe
+_StartGeneralTm    
+_StartupHook        libCleaPlusOs.a(osek.o) 0127aa
+_StopGeneralTm     
+_SuspendAllInterrupts Can_Wakeup.o            0102dc
+                    Can.o                   011262
+_SysSrvc_CalcCpuLoader..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler.
+_SysSrvc_EnterIdle  libCleaPlusOs.a(Sys_Kernel.o) 014426
+_SysSrvc_ExitIdle   libCleaPlusOs.a(Sys_Kernel.o) 01445c
+_SysSrvc_GetRunTmStat libCleaPlusOs.a(Sys_Kernel.o) 014294 01449c
+_SysSrvc_GetVersionInfo
+_SysSrvc_InitAllQueue libCleaPlusOs.a(Sys_Kernel.o) 014176
+_SysSrvc_InitFreeAlmQ libCleaPlusOs.a(Sys_QueueHandler.o) 016262
+_SysSrvc_InitKrnlQ..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_QueueHandler.
+_SysSrvc_OsTickHook libCleaPlusOs.a(Sys_Kernel.o) 0143f0
+_SysSrvc_PrdTskEnQ  libCleaPlusOs.a(tcb.o)  00f50c 00f510 00f514 00f518 00f51c
+                                            00f520
+_SysSrvc_SendEvt    libCleaPlusOs.a(Sys_AlarmHandler.o) 016004 015f84
+_SysSrvc_ShutdownHook libCleaPlusOs.a(Sys_Kernel.o) 0143e4
+_SysSrvc_StackCheck libCleaPlusOs.a(Sys_Kernel.o) 0143ca
+_SysSrvc_StartSchduler main.o                  0174f0
+_SysSrvc_StartupHook libCleaPlusOs.a(Sys_Kernel.o) 0143d6
+_SysSrvc_uwGetIntStkUsage..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_StackHandler.
+_SysSrvc_uwGetStkUsage..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_StackHandler.
+_Sys_EnterIdleClbk  libCleaPlusOs.a(Sys_RuntimeHandler.o) 014602
+_Sys_ExitIdleCblk   libCleaPlusOs.a(Sys_RuntimeHandler.o) 014622
+_Sys_KernelVersionNum
+_TaskAlreadyDo      main.o                  01759e
+_Task_BackGround    libCleaPlusOs.a(Sys_Kernel.o) 0143c6
+_Task_EvtQHndlProcsfunc libCleaPlusOs.a(tcb.o)  00f294
+_Task_InitAfterOsOn libCleaPlusOs.a(Sys_Kernel.o) 0141e4
+_Task_Initfunc      libCleaPlusOs.a(tcb.o)  00f290
+_Task_RoundRobinfunc libCleaPlusOs.a(tcb.o)  00f298
+_Test_Task          Api_SchdTbl.o           00e310 00e34c
+_TmElspdGeneral    
+_TmRmndGeneral     
+_UserPostISRHook    libCleaPlusOs.a(tcb.o)  014132
+_UserPreISRHook     libCleaPlusOs.a(tcb.o)  014128
+_VaAPI_u_AECtrlReqActv..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_Do.
+_VaAPI_u_ActualOutStatus..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_Do.
+_VaAPI_u_AppOutput..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_Do.
+_VaAPI_u_OutPrtctActv..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_Do.
+_VaDoAb_u_OutOfVolt..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_Do.
+_VaSysSrvc_TagRuntmCheck libCleaPlusOs.a(Sys_RuntimeHandler.o) 0145a4 01462c
+                    libCleaPlusOs.a(Sys_Kernel.o) 014482 014258 014468
+_VaSysSrvc_uwStkUsage libCleaPlusOs.a(Sys_StackHandler.o) 01458a 014576 014570 01456c
+_VeAPI_b_OutPrtctDsbl..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_Do.
+_VeKRN_b_RecycleFlag
+_VeKRN_w_TmpEvtID   libCleaPlusOs.a(Sys_Kernel.o) 01434c 014348 014334 014330
+_VeLED_b_BadWeatherLampOutFlg LEDLightControlRTE.o    01c89a 01c8a8 01c8b4
+_VeLED_b_CityModeLampOutFlg LEDLightControlRTE.o    01c846 01c854 01c860
+_VeLED_b_CornerLampOutFlg LEDLightControlRTE.o    01c81c 01c82a 01c836
+_VeLED_b_DRLOutFlg  LEDLightControlRTE.o    01c782 01c774 01c78e
+_VeLED_b_HighBeamOutFlg LEDLightControlRTE.o    01c79e 01c7ac 01c7b8
+_VeLED_b_HighSpeedLampOutFlg LEDLightControlRTE.o    01c870 01c87e 01c88a
+_VeLED_b_LowBeamOutFlg LEDLightControlRTE.o    01c7c8 01c7d6 01c7e2
+_VeLED_b_ParkLampOutFlg LEDLightControlRTE.o    01c74a 01c758 01c764
+_VeLED_b_TurnLampOutFlg LEDLightControlRTE.o    01c7f2 01c800 01c80c
+_VeLED_u_TurnLampCount LEDLightControl.o       01c93e
+_VeLED_u_TurnLampCount2
+_VeLED_w_LightingShowCount
+_VeLED_w_PWMDutyCount
+_VeOS_w_UnitCount  
+_VeSysSrvc_CurCpuLoader..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler.
+_VeSysSrvc_MaxCpuLoader..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler.
+_VsKERNEL_h_EventTaskQueue libCleaPlusOs.a(Sys_QueueHandler.o) 016250
+                    libCleaPlusOs.a(Sys_Kernel.o) 01437a 01419a
+                    libCleaPlusOs.a(Sys_AlarmHandler.o) 015e66
+_VsKERNEL_h_PeriodTaskQueue libCleaPlusOs.a(Sys_QueueHandler.o) 01623c
+                    libCleaPlusOs.a(Sys_Kernel.o) 014232 01421a 014216
+                    libCleaPlusOs.a(Sys_AlarmHandler.o) 015f10
+__Exit              libansi.a(ccexit.o)     016fee
+___atexit_cleanup_func libansi.a(ccexit.o)     016fd0 016fc6 016fc2
+___callt_table      crt0.o                  00ffb8 00ffbc
+___cpp_exception_cleanup libsys.a(ind_exit.o)    017048 017044
+___cpp_exception_init libsys.a(ind_crt1.o)    fede4084
+___dotsyscall       crt0.o                  00ff5c
+                    libsys.a(ind_call.o)    0170a8
+___gh_errno_ptr    
+___gh_get_errno    
+___gh_iob_init      libsys.a(ind_crt1.o)    01710e fede4080
+___gh_lock_init     libsys.a(ind_crt1.o)    0170fe fede407c
+___gh_set_errno     libsys.a(ind_call.o)    0170b2
+___ghsLock          libsys.a(ind_exit.o)    017018 017076
+___ghsUnlock        libsys.a(ind_exit.o)    017054 01708a
+___ghs_InterruptLock
+___ghs_InterruptUnlock
+___ghs_at_exit     
+___ghs_board_cache_sync libstartup.a(ind_crt0.o) 011890 01188c 011884 011880
+___ghs_board_devices_init libsys.a(ind_crt1.o)    0170ee fede4078
+___ghs_board_memory_init crt0.o                  00ff46 00ff4a 00ff50
+___ghs_call_table  
+___ghs_checksum     libstartup.a(ind_crt0.o) 011cd0
+___ghs_cpp_exception_cleanup libsys.a(ind_exit.o)    017050
+___ghs_cpp_exception_init libsys.a(ind_crt1.o)    01711e
+___ghs_decompress   libstartup.a(ind_uzip.o) 011ea4 011e98 011e86 011e84 011e80
+                                            011e7c 011e6e 011e66 011e3e 011e24
+                                            011e14 011e0c
+                    libstartup.a(ind_crt0.o) 011852 01184e
+___ghs_ind_crt0     libstartup.a(ind_crt0.o) 011c7c 011c5e 011c02 011bfc 011bf4
+                                            011bbe 011ba0 011b48 011b42 011b3a
+                                            011b04 011aee 011aa2 011aa0 011a96
+                                            011a80 011a16 011a06 0119fa 0119ee
+                                            0119d4 0119a2 011996 011984 011978
+                                            011948 011900 0118aa 011898 01188a
+                                            011cc4 011cdc 011d3e 011d46 011d64
+                                            011d66 011d70 011d92 011db4
+                    crt0.o                  00ffe0
+___ghs_ind_crt1     libstartup.a(ind_crt0.o) 01182e 01182a
+___ghs_initial_dotsyscall
+___ghs_manprf_init  libsys.a(ind_crt1.o)    01712e fede4088
+___ghs_rambootcodeend crt0.o                  00fffc
+___ghs_rambootcodestart crt0.o                  00fff8
+___ghs_rombootcodeend crt0.o                  010004
+___ghs_rombootcodestart crt0.o                  010000
+___ghs_syscall      libsys.a(ind_exit.o)    01705c
+___ghs_undefined_func libstartup.a(ind_crt0.o) 01187c 011878
+                    libsys.a(ind_exit.o)    017040 01703c
+___ghsbegin_fixaddr libstartup.a(ind_crt0.o) 011c82 011c7e
+___ghsbegin_fixtype libstartup.a(ind_crt0.o) 011caa 011ca6
+___ghsbegin_picbase crt0.o                  00ffec
+                    libstartup.a(ind_crt0.o) 011a24 011a20
+___ghsbegin_pidbase crt0.o                  00fff4
+                    libstartup.a(ind_crt0.o) 011a44
+___ghsbegin_robase  df4010_startup.o        0116fa 0116fe
+                    crt0.o                  00fff0
+                    libstartup.a(ind_crt0.o) 011a34
+___ghsbegin_sda_end
+___ghsbegin_sda_start crt0.o                  00ff82 00ff92
+___ghsbegin_sdabase df4010_startup.o        0116f2 0116f6
+                    crt0.o                  00ff78
+___ghsbegin_secinfo libstartup.a(ind_crt0.o) 01185e 01185a
+___ghsbinfo_aclear  libstartup.a(ind_crt0.o) 011a86 011a82 011a7a 011a76
+___ghsbinfo_acopy  
+___ghsbinfo_bcopy  
+___ghsbinfo_clear   libstartup.a(ind_crt0.o) 011a5a 011a56
+___ghsbinfo_comacopy
+___ghsbinfo_comcopy libstartup.a(ind_crt0.o) 011bc4 011bc0
+___ghsbinfo_comtcopy libstartup.a(ind_crt0.o) 011bd0 011bcc
+___ghsbinfo_copy    libstartup.a(ind_crt0.o) 011b0a 011b06
+___ghsbinfo_tcopy   libstartup.a(ind_crt0.o) 011b16 011b12
+___ghseinfo_bcopy  
+___ghseinfo_clear   libstartup.a(ind_crt0.o) 011a66 011a62
+___ghseinfo_comcopy libstartup.a(ind_crt0.o) 011be4 011be0
+___ghseinfo_copy    libstartup.a(ind_crt0.o) 011b26 011b2a
+___ghsend_fixaddr   libstartup.a(ind_crt0.o) 011c96 011c92
+___ghsend_stack     crt0.o                  00ff68
+                    df4010_startup.o        011702 011706
+___ghsld2lp         libarch.a(indarchl.o)   017316
+___ghsld2r20        libarch.a(indarchl.o)   017326
+___ghsld2r21        libarch.a(indarchl.o)   017338
+___ghsld2r22        libarch.a(indarchl.o)   01734a
+___ghsld2r23        libarch.a(indarchl.o)   017360
+___ghsld2r24        libarch.a(indarchl.o)   017372
+___ghsld2r25        libarch.a(indarchl.o)   017384
+___ghsld2r26        libarch.a(indarchl.o)   017396
+___ghsld2r27        libarch.a(indarchl.o)   0173a8
+___ghsld2r28        libarch.a(indarchl.o)   0173ba
+___ghsld2r29        libarch.a(indarchl.o)   0173cc
+___ghsld4lp        
+___ghsld4r20       
+___ghsld4r21       
+___ghsld4r22       
+___ghsld4r23       
+___ghsld4r24       
+___ghsld4r25       
+___ghsld4r26       
+___ghsld4r27       
+___ghsld4r28       
+___ghsld4r29       
+___ghsld4return     libarch.a(indarchl.o)   017366 017378 01738a 01739c 0173ae
+                                            0173c0 0173d2
+___ghsldX4return    libarch.a(indarchl.o)   01732c 01733e 017350
+___ghssv4lp        
+___ghssv4r20       
+___ghssv4r21       
+___ghssv4r22       
+___ghssv4r22return  libarch.a(indarchl.o)   017220 01722a 017234
+___ghssv4r23       
+___ghssv4r24       
+___ghssv4r25       
+___ghssv4r26       
+___ghssv4r27       
+___ghssv4r28       
+___ghssv4r29       
+___ghssv4r29return  libarch.a(indarchl.o)   017264 017246 017250 01725a 01726e
+                                            017278 017282
+___ghssv5lp        
+___ghssv5r20       
+___ghssv5r21       
+___ghssv5r22       
+___ghssv5r22out     libarch.a(indarchl.o)   017294 01729e 0172a8
+___ghssv5r23       
+___ghssv5r24       
+___ghssv5r25       
+___ghssv5r26       
+___ghssv5r27       
+___ghssv5r28       
+___ghssv5r29       
+___ghssv5return     libarch.a(indarchl.o)   0172aa 0172bc 0172c6 0172d0 0172da
+                                            0172e4 0172ee 0172f8
+___ghssvlp          libarch.a(indarchl.o)   0172b2 0172fe
+___lowinit          df4010_startup.o        01170e
+___osTimerInterrupt df4010_startup.o        0009b0
+__cleanup           libansi.a(ccexit.o)     016fe8 016fe0 016fdc
+__ep                crt0.o                  00ffac 00ffb0
+                    libCleaPlusOs.a(osek.o) 0122be 0122c2 012cfa 012cfe
+__exit             
+__ghs_v800_r20_initializer crt0.o                  00ffc4
+__ghs_v800_r21_initializer crt0.o                  00ffc8
+__ghs_v800_sda_model crt0.o                  00ff60
+__gp                crt0.o                  00ff8c
+__multiArgs        
+__multibufSize     
+__multibuffer      
+__multiend         
+__osTrap            df4010_startup.o        000040
+__start             df4010_startup.o        011712
+__tp                crt0.o                  00ffa8
+__unused_isr        df4010_startup.o        000d10 000d20 011716 000010 000020
+                                            000030 000050 000060 000070 000080
+                                            000090 0000a0 0000c0 0000d0 0000e0
+                                            0000f0 000100 000110 000120 000130
+                                            000140 000150 000160 000170 000180
+                                            000190 0001a0 0001b0 0001c0 0001d0
+                                            0001e0 0001f0 000200 000210 000220
+                                            000230 000240 000250 000260 000270
+                                            000280 000290 0002a0 0002b0 0002c0
+                                            0002d0 0002e0 0002f0 000300 000310
+                                            000320 000330 000340 000350 000360
+                                            000370 000380 000390 0003a0 0003b0
+                                            0003c0 0003d0 0003e0 0003f0 000400
+                                            000410 000420 000430 000440 000450
+                                            000460 000470 000480 000490 0004a0
+                                            0004b0 0004c0 0004d0 0004e0 0004f0
+                                            000500 000510 000520 000530 000540
+                                            000550 000560 000570 000580 000590
+                                            0005a0 0005b0 0005c0 0005d0 0005e0
+                                            0005f0 000600 000610 000620 000630
+                                            000640 000650 000660 000670 000680
+                                            000690 0006a0 0006b0 0006c0 0006d0
+                                            0006e0 0006f0 000700 000710 000720
+                                            000730 000740 000750 000760 000770
+                                            0007e0 0007f0 000800 000810 000820
+                                            000830 000840 000850 000860 000870
+                                            000890 0008c0 0008d0 0008e0 0008f0
+                                            000900 000910 000920 000930 000940
+                                            000950 000960 000970 000980 000990
+                                            0009a0 000a20 000a30 000a40 000a80
+                                            000a90 000aa0 000ab0 000ac0 000b00
+                                            000b10 000b20 000b30 000b40 000b80
+                                            000b90 000ba0 000bb0 000bc0 000bd0
+                                            000be0 000bf0 000c30 000c40 000c50
+                                            000c60 000c70 000c90 000ca0 000cb0
+                                            000cc0 000cd0 000ce0 000cf0 000d00
+                                            000d30 000d40 000d50 000d80 000d90
+                                            000da0 000db0 000dc0 000e40 000e90
+                                            000ea0 000eb0 000f40 000f50 000f60
+                                            000f70 000f80 000f90 001000 001010
+                                            001020 001030 001040 001050 001060
+                                            001070
+_bitValue          
+_dummybuffer       
+_environ            libsys.a(ind_crt1.o)    017162 01715e
+_errno              libsys.a(ind_errn.o)    01719a 017196 0171a4 0171a0 0171ae
+                                            0171aa
+_exit               crt0.o                  00ff38
+                    libsys.a(ind_crt1.o)    017172
+_fstinflg..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler.
+_iLED_RefreshPeriodDuty_TLD..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_LED.
+_iLED_RefreshPeriodDuty_TPS..C.3A.5CUsers.5Czhanyi.5CDesktop.5Cfactory.5Cunionlab.5Cspace.5CSoftware.5Cdevelop.5Cbranches.5Cled_show_howforApp.5CIDE_GHS.5Cobjs.5CProgram.5CIoHwAb_LED.
+_lpcnt_spi         
+_lststamp.SysSrvc_CalcCpuLoader.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_RuntimeHandler..4
+_lsttmstamp.Task_EvtQHndlProcsfunc.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_Kernel..3
+_main               main.o                  0174f6
+                    libsys.a(ind_crt1.o)    01716c
+_memcpy             libstartup.a(ind_crt0.o) 011846 011842
+_memset             libstartup.a(ind_mset.o) 011ec4 011f0a 011f02 011efc 011eee
+                                            011ee4 011ed8
+                    libstartup.a(ind_crt0.o) 01183a 011836
+_multiBreak         libmulti.a              0117f4
+_multiCall         
+_osAPIParam1        libCleaPlusOs.a(osektask.o) 014a80 014a7c 0149d0 0149cc 01499c
+                                            014998 014c76 014c72 0150c8 0150c4
+                                            015062 01505e 01501c 015018 014ff0
+                                            014fec 014fa6 014fa2 0155cc 0155c8
+                                            0154cc 0154c8 015592 01558e
+                    libCleaPlusOs.a(osekrsrc.o) 0157fc 0157f8 01579e 01579a 01575c
+                                            015758 015718 015714 0156e0 0156dc
+                                            0156ac 0156a8 015b56 015b52 015b04
+                                            015b00 015ad0 015acc 015a90 015a8c
+                                            015a58 015a54 015a24 015a20
+                    libCleaPlusOs.a(osekalrm.o) 016932 01692e 0168ba 0168b6 01684e
+                                            01684a 01680a 016806 0167b6 0167b2
+                                            0166cc 0166c8 01668e 01668a 016654
+                                            016650 016578 016574 01653e 01653a
+                                            016c14 016c10 016b9c 016b98 016b58
+                                            016b54 016b14 016b10 016ac6 016ac2
+                                            016ede 016eda 016e76 016e72 016e42
+                                            016e3e
+_osAPIParam2        libCleaPlusOs.a(osektask.o) 0155d4 0155d0 01559a 015596
+                    libCleaPlusOs.a(osekalrm.o) 01693a 016936 0168c2 0168be 016856
+                                            016852 016812 01680e 0167be 0167ba
+                                            0166d4 0166d0 016696 016692 01665c
+                                            016658 016580 01657c 016546 016542
+                                            016c1c 016c18 016ba4 016ba0 016b60
+                                            016b5c 016b1c 016b18 016ace 016aca
+_osAPIParam3        libCleaPlusOs.a(osekalrm.o) 016942 01693e 0168ca 0168c6 01685e
+                                            01685a 01681a 016816 0167c6 0167c2
+                                            016c24 016c20 016bac 016ba8 016b68
+                                            016b64 016b24 016b20 016ad6 016ad2
+_osAbortSystem      libCleaPlusOs.a(osekerr.o) 0148e4 0148f4
+                    libCleaPlusOs.a(osek.o) 0129d6 0129e6 0130ae
+                    libCleaPlusOs.a(osekalrm.o) 016f68
+_osActivateTask     libCleaPlusOs.a(Sys_Kernel.o) 0141d8
+                    libCleaPlusOs.a(Sys_AlarmHandler.o) 015ef2 015f46
+_osActiveTaskIndex  libCleaPlusOs.a(osek.o) 013638 013634 013536 013532 012406
+                                            012402 011f68 011f6c 012114 012118
+                                            012554 012550 0124a2 01249e 0128d2
+                                            0128ce 012890 01288c 012838 012834
+                                            01275a 01275e 012974 012978 012d4a
+                                            012d4e 012d58 012d5c 012d7e 012d82
+                                            012d9a 012d9e 012db0 012db4 012df6
+                                            012dfa 012dfe 012e02 012e7a 012e7e
+                                            012ea6 012eaa 012ebe 012ec2 012f08
+                                            012f0c 012f1e 012f22 012f3c 012f40
+                                            012f5a 012f5e 013122 013126 01320a
+                                            01320e 0132f4 0132f8 01340a 01340e
+                    libCleaPlusOs.a(tcb.o)  014040 01403c 0140ce 0140ca
+                    libCleaPlusOs.a(osektrac.o) 01471e 01471a
+                    libCleaPlusOs.a(osekerr.o) 0147f2 0147ee
+                    libCleaPlusOs.a(osektask.o) 01546c 015468 015364 015360 015324
+                                            015320 014d42 014d3e 014944 014940
+                                            014bce 014bca 01515c 015158 015148
+                                            015144 015124 015120 01510e 01510a
+                                            014eb4 014eb0 014ea0 014e9c 014e7c
+                                            014e78 014e66 014e62 014dbe 014dba
+                                            0150ac 0150a8 014fca 014fc6 014f46
+                                            014f42 0154ee 0154ea 01553a 015536
+                                            015266 01526a
+                    libCleaPlusOs.a(osekrsrc.o) 01596e 01596a 0158fe 0158fa 0158b4
+                                            0158b0 0157da 0157d6 0157c2 0157be
+                                            015780 01577c 015654 015650 015b88
+                                            015b84 015b28 015b24 0159cc 0159c8
+                    libCleaPlusOs.a(osekalrm.o) 01675c 016758 0165fa 0165f6 0164e4
+                                            0164e0 016a6c 016a68 016de8 016de4
+_osActiveTaskLineNumber libCleaPlusOs.a(osek.o) 0135ba 0135b6 012a1a 012a16 012392
+                                            01238e 0136b2 0136ae 0125ba 0125be
+                                            0125fa 0125fe 012644 012648 01268c
+                                            012690 012afe 012b02 012b98 012b9c
+                                            012c24 012c28 012c9a 012c9e 01319c
+                                            0131a0 013282 013286 013378 01337c
+                                            013484 013488
+                    libCleaPlusOs.a(Sys_Kernel.o) 0143a8 0143a4 014358 014354 014318
+                                            014314 0141c4 0141c0 0141f0 0141ec
+                                            014404 014400 01443a 014436 0144b0
+                                            0144ac 0144d8 0144d4
+                    libCleaPlusOs.a(osekerr.o) 0148ae 0148aa
+                    libCleaPlusOs.a(osektask.o) 01539c 015398 014a24 014a20 014c4e
+                                            014c4a 01519c 0151a0
+                    libCleaPlusOs.a(osekrsrc.o) 01585a 015856 015c04 015c00 015bb2
+                                            015bae
+                    libCleaPlusOs.a(Sys_AlarmHandler.o) 015ede 015eda 015f32 015f2e
+_osActiveTaskModule libCleaPlusOs.a(osek.o) 0135ae 0135aa 012a0e 012a0a 012386
+                                            012382 0136a6 0136a2 0125ae 0125b2
+                                            0125ee 0125f2 012638 01263c 012680
+                                            012684 012af2 012af6 012b8c 012b90
+                                            012c18 012c1c 012c8e 012c92 013190
+                                            013194 013276 01327a 01336c 013370
+                                            013478 01347c
+                    libCleaPlusOs.a(Sys_Kernel.o) 0143b6 0143b2 014366 014362 014326
+                                            014322 0141d2 0141ce 0141fe 0141fa
+                                            014412 01440e 014448 014444 0144be
+                                            0144ba 0144e6 0144e2
+                    libCleaPlusOs.a(osekerr.o) 0148a2 01489e
+                    libCleaPlusOs.a(osektask.o) 015390 01538c 014a18 014a14 014c42
+                                            014c3e 015194 015190
+                    libCleaPlusOs.a(osekrsrc.o) 01584e 01584a 015bf8 015bf4 015ba6
+                                            015ba2
+                    libCleaPlusOs.a(Sys_AlarmHandler.o) 015eec 015ee8 015f40 015f3c
+_osActiveTaskPrio   libCleaPlusOs.a(osek.o) 01253c 012538 012e14 012e18 012e72
+                                            012e76
+                    libCleaPlusOs.a(osektask.o) 01533a 015336 015168 015164 014ec0
+                                            014ebc 014dd4 014dd0 014fe0 014fdc
+                    libCleaPlusOs.a(osekrsrc.o) 0158e2 0158de 0158d6 0158d2 0158cc
+                                            0158c8 015c8c 015c88
+_osAlarmActivated   libCleaPlusOs.a(osektime.o) 013ae2 013a94 013c04 013bee
+                    libCleaPlusOs.a(Sys_AlarmHandler.o) 015e74
+                    libCleaPlusOs.a(osekalrm.o) 0169b8 016920 0166ba 016d68 0169e8
+                                            016cca 016c02 016f2e 016ecc
+_osAlarmCycleTime   libCleaPlusOs.a(osektime.o) 013a6c 013a58 013c56 013c34
+                    libCleaPlusOs.a(osekalrm.o) 016992 016c76
+_osAlarmHeap        libCleaPlusOs.a(osektime.o) 013874 01384a 01383c 01378c 013774
+                                            013766 01373e 013716 013806 0137d2
+                                            0137bc 0137aa 0139aa 013992 013970
+                                            0138f2 013892 0138ee 0138e4 0138c8
+                                            0138c4 01395c 013926 013916 013a22
+                                            013a1e
+_osAlarmHeapCount   libCleaPlusOs.a(osektime.o) 013b78 013b74 013866 013862 013708
+                                            013704 013886 013968 0138ac 0138a8
+                                            01389e 01388a 0138dc 0138d8 0138ce
+                                            013964 01394c 01393e 01393a 01390e
+                                            01390a
+_osAlarmTime        libCleaPlusOs.a(osektime.o) 0139b8 013822 013814 01374c 013732
+                                            0137e8 0137ca 0139a0 013ac6 013a78
+                                            013a2c 013bd2
+                    libCleaPlusOs.a(osekalrm.o) 0169a2 0166f8 016d3a 0169d2 016d08
+                                            016cbe
+_osAlarmTimerRunning libCleaPlusOs.a(osek.o) 012716 01271a
+                    libCleaPlusOs.a(tcb.o)  013e0c 013e08 013dd8 013dd4 013e5e
+                                            013e5a 013e20 013e1c
+_osAssertFailed     libCleaPlusOs.a(osekerr.o) 0148be
+                    libCleaPlusOs.a(osek.o) 0135ca 012a2a 0123a2 0136c2 0125ce
+                                            01260e 012658 0126a0 0127f2 012b12
+                                            012bac 012c38 012cae 0131b0 013296
+                                            01338c 013498
+                    libCleaPlusOs.a(osektask.o) 0153ac 014a34 014c5e 014f00 0151b0
+                                            015228
+                    libCleaPlusOs.a(osekrsrc.o) 01586a 015c14 015bc2
+_osCallISRHooks_osTimerInterrupt libCleaPlusOs.a(tcb.o)  013cdc
+_osCancelAlarm      libCleaPlusOs.a(Sys_AlarmHandler.o) 015f7a 0160b0
+_osChainTask        libCleaPlusOs.a(Sys_Kernel.o) 014204
+_osChangeInternalClock
+_osClimbDownMinHeap..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosektime.
+_osClimbUpMinHeap..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosektime.
+_osDisableAllInterrupts
+_osDisableUnusedInterrupts libCleaPlusOs.a(osek.o) 0130e6
+_osDispIsrEntryAfterSave
+_osDispIsrEntryNoSave libCleaPlusOs.a(osek.o) 011f76 012122
+_osDispIsrEntrySave libCleaPlusOs.a(osek.o) 012128
+_osDispatcher       libCleaPlusOs.a(osek.o) 012038
+_osEnableAllInterrupts
+_osErrorFlag        libCleaPlusOs.a(osek.o) 01255c 012558
+                    libCleaPlusOs.a(osekerr.o) 0148cc 0148c8 014868 014864 01485a
+                                            014856
+_osErrorHook        libCleaPlusOs.a(osekerr.o) 014792 0147a6
+                    libCleaPlusOs.a(tcb.o)  013df2 013e3a
+                    libCleaPlusOs.a(osektask.o) 015354 015312 014a92 0149e2 0149ae
+                                            014c88 0150da 014e2c 014dee 014dac
+                                            015074 01502e 015002 014fb8 0155e6
+                                            0154de 0155ac 0152d4
+                    libCleaPlusOs.a(osekrsrc.o) 01580e 0157b0 01576e 01572a 0156f2
+                                            0156be 015b68 015b16 015ae2 015aa2
+                                            015a6a 015a36
+                    libCleaPlusOs.a(osekalrm.o) 016954 0168dc 016870 01682c 0167d8
+                                            0166e6 0166a8 01666e 016592 016558
+                                            016c36 016bbe 016b7a 016b36 016ae8
+                                            016ef0 016e88 016e54
+_osFakeRETI        
+_osFillInterruptStack libCleaPlusOs.a(osek.o) 012452
+_osFillTaskStacks..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+_osGetAlarm         libCleaPlusOs.a(Sys_AlarmHandler.o) 01612c 016190
+_osGetAlarmBase    
+_osGetIntStackUsage libCleaPlusOs.a(Sys_StackHandler.o) 014542
+_osGetResource      libCleaPlusOs.a(Sys_Kernel.o) 01432c 0144c4
+_osGetStackUsage    libCleaPlusOs.a(Sys_StackHandler.o) 014522
+_osGetTaskID        libCleaPlusOs.a(Sys_Kernel.o) 01441a 014450
+_osGetTaskState     libCleaPlusOs.a(Sys_Kernel.o) 0141b0
+                    libCleaPlusOs.a(Sys_AlarmHandler.o) 015eca 015f1e
+_osHighReadyTaskIndex libCleaPlusOs.a(osek.o) 01240e 01240a 0123f6 0123f2 0123c6
+                                            0123c2 012548 012544 012dee 012df2
+                    libCleaPlusOs.a(osektask.o) 014b14 014b10 014ce0 014cdc
+                    libCleaPlusOs.a(osekrsrc.o) 015906 015902
+_osHighReadyTaskPrio libCleaPlusOs.a(osek.o) 0123fe 0123fa 0123ba 0123b6 012530
+                                            01252c 012e0c 012e10 012e6a 012e6e
+                    libCleaPlusOs.a(osektask.o) 014b0c 014b08 014b00 014afc 014cd8
+                                            014cd4 014ccc 014cc8
+                    libCleaPlusOs.a(osekrsrc.o) 0158f6 0158f2 0158ea 0158e6
+_osISRUnhandledException
+_osIWraposTimerInterrupt libCleaPlusOs.a(intvect.o) 014146
+_osIdleLoop..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+_osInitAlarms       libCleaPlusOs.a(osek.o) 012710
+_osInitInterrupts   libCleaPlusOs.a(osek.o) 01245a
+_osInitMinHeap..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosektime.
+_osInitTCBs..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+_osInitTimer        libCleaPlusOs.a(osek.o) 0127ae
+_osInitTrace        libCleaPlusOs.a(osek.o) 012468
+_osInitialize       libCleaPlusOs.a(osek.o) 012456
+_osInsertMinHeap    libCleaPlusOs.a(osektime.o) 013ada 013a8c 013bfc
+                    libCleaPlusOs.a(osekalrm.o) 0169c6 016d76 0169f6 016cd8
+_osIntAPIStatus     libCleaPlusOs.a(osek.o) 013584 0136f6 01258a 01258e 012614
+                                            012618 01261c 012620 01265c 012660
+                                            012664 012668 012abe 012ac2 013172
+                                            013176 0131b4 0131b8 01325a 01325e
+                                            0132b4 0132b8 013346 0134f0
+                    libCleaPlusOs.a(osekerr.o) 0148d4 0148d0 01484a 014846 014842
+                                            01483e
+                    libCleaPlusOs.a(osektask.o) 0149c0 0149bc 0154bc 0154b8 0155bc
+                                            0155b8
+                    libCleaPlusOs.a(osekrsrc.o) 0156d0 0156cc 015a48 015a44
+                    libCleaPlusOs.a(osekalrm.o) 0168aa 0168a6 01667e 01667a 016568
+                                            016564 016b8c 016b88 016e66 016e62
+_osIntNestingDepth  libCleaPlusOs.a(osek.o) 012574 012570 012898 012894 012fa6
+                    libCleaPlusOs.a(tcb.o)  013cf2 013cee 013cc2 013c7a 013c76
+                    libCleaPlusOs.a(osektask.o) 014d92 014d8e 014f96 014f92 0152b6
+                                            0152ba
+                    libCleaPlusOs.a(osekrsrc.o) 01574c 015748 015af4 015af0
+_osIntSaveDisableCounter libCleaPlusOs.a(osek.o) 012ad4 012ab6 012aba 012ad8 012b16
+                                            012b1a 012b5e 012b70 012b74 012bb2
+                                            012bbc 012bc0 013350 013354 013392
+                                            01339c 0133a0 01345a 01345e 01349c
+                                            0134a0 0134e4
+_osIntSaveDisableGlobalCounter..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+_osIntStackOverflow..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+_osInterPostTaskHook libCleaPlusOs.a(osek.o) 012d96
+                    libCleaPlusOs.a(osektask.o) 015106 014e5e
+_osInterPreTaskHook libCleaPlusOs.a(osek.o) 012efa 012f96
+_osIsOnSystemStack  libCleaPlusOs.a(osek.o) 012100 012104 0122a2 0122a6 012720
+                                            012724 012e4c 012e50 012f00 012f04
+                                            012f52 012f56 012fb2
+                    libCleaPlusOs.a(tcb.o)  013cb6
+_osIsrStoredInfo    libCleaPlusOs.a(tcb.o)  013ce6 013c82
+_osLastActiveTaskIndex libCleaPlusOs.a(osek.o) 012524 012520 012dc8 012dcc
+                    libCleaPlusOs.a(osektask.o) 015150 01514c 014ea8 014ea4
+_osLastError        libCleaPlusOs.a(osek.o) 0135c6 0135c2 012a26 012a22 01239e
+                                            01239a 01256c 012568 0136be 0136ba
+                                            0125c6 0125ca 012606 01260a 012650
+                                            012654 012698 01269c 0127ea 0127ee
+                                            01292c 012930 012b0a 012b0e 012ba4
+                                            012ba8 012c30 012c34 012ca6 012caa
+                                            0131a8 0131ac 01328e 013292 013384
+                                            013388 013490 013494
+                    libCleaPlusOs.a(tcb.o)  013dec 013de8 013e34 013e30
+                    libCleaPlusOs.a(osekerr.o) 0148ba 0148b6 014788 01478c
+                    libCleaPlusOs.a(osektask.o) 0153a8 0153a4 01534e 01534a 014a8c
+                                            014a88 014a30 014a2c 0149dc 0149d8
+                                            0149a8 0149a4 014c82 014c7e 014c5a
+                                            014c56 0150d4 0150d0 014efc 014ef8
+                                            014e26 014e22 014de8 014de4 014da6
+                                            014da2 01506e 01506a 015028 015024
+                                            014ffc 014ff8 014fb2 014fae 0155e0
+                                            0155dc 0154d8 0154d4 0155a6 0155a2
+                                            0151a8 0151ac 015220 015224 0152ca
+                                            0152ce 015308 01530c
+                    libCleaPlusOs.a(osekrsrc.o) 015866 015862 015808 015804 0157aa
+                                            0157a6 015768 015764 015724 015720
+                                            0156ec 0156e8 0156b8 0156b4 015c10
+                                            015c0c 015bbe 015bba 015b62 015b5e
+                                            015b10 015b0c 015adc 015ad8 015a9c
+                                            015a98 015a64 015a60 015a30 015a2c
+                    libCleaPlusOs.a(osekalrm.o) 01694e 01694a 0168d6 0168d2 01686a
+                                            016866 016826 016822 0167d2 0167ce
+                                            0166e0 0166dc 0166a2 01669e 016668
+                                            016664 01658c 016588 016552 01654e
+                                            016c30 016c2c 016bb8 016bb4 016b74
+                                            016b70 016b30 016b2c 016ae2 016ade
+                                            016eea 016ee6 016e82 016e7e 016e4e
+                                            016e4a
+_osLastErrorCode    libCleaPlusOs.a(osek.o) 012564 012560
+                    libCleaPlusOs.a(osekerr.o) 014852 01484e
+_osLeaveFEtoDispatcher
+_osLeaveISR         libCleaPlusOs.a(tcb.o)  013d14
+_osLockDispatcher   libCleaPlusOs.a(osek.o) 012586 012582 0125d2 0125d6 0127b2
+                                            0127b6 012e1c 012e20 012e94 012e98
+                                            012e9e 012ea2 012fbe 012fda 012fde
+                    libCleaPlusOs.a(tcb.o)  013cce
+                    libCleaPlusOs.a(osektask.o) 014b26 014b22 014cf2 014cee
+                    libCleaPlusOs.a(osekrsrc.o) 015cb2 015cae
+_osMissingTerminateError libCleaPlusOs.a(osek.o) 012cf2 012cf6
+_osQReadyPrios      libCleaPlusOs.a(osek.o) 0123d2 0123ce 0123aa 0123a6 012424
+                                            012420
+                    libCleaPlusOs.a(osektask.o) 014aee 014cba 01513a 014e92 0151de
+                    libCleaPlusOs.a(osekrsrc.o) 015918 015830 01582c 015ca4 015bda
+                                            015bd6
+_osQReadyTask       libCleaPlusOs.a(osek.o) 0123e8 012430
+                    libCleaPlusOs.a(osektask.o) 014ad6 014ca2 0151c6
+                    libCleaPlusOs.a(osekrsrc.o) 0158a8
+_osReleaseResource  libCleaPlusOs.a(Sys_Kernel.o) 01436c 0144ec
+_osRemoveItemMinHeap libCleaPlusOs.a(osekalrm.o) 016f24
+_osRemoveMinItemMinHeap..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosektime.
+_osResActualTask    libCleaPlusOs.a(osek.o) 0126c0
+                    libCleaPlusOs.a(osekrsrc.o) 015962 015c1e 015b7c
+_osResGlobalOccupationCounter libCleaPlusOs.a(osek.o) 0126a4 0126a8
+                    libCleaPlusOs.a(osekrsrc.o) 015982 01597e 015928 015c6e 015abe
+                                            015aba
+_osResOccupationCounter libCleaPlusOs.a(osek.o) 0126b0
+                    libCleaPlusOs.a(osekrsrc.o) 015976 015702 015c2e 015ab2 015a7a
+_osResSavedPrio     libCleaPlusOs.a(osekrsrc.o) 0158c0 015c7e
+_osRestoreEnableGlobalNested libCleaPlusOs.a(tcb.o)  013df6 013e3e
+_osRestoreEnableLevelNested libCleaPlusOs.a(osek.o) 01357e 0124ea 01291a 012880 013680
+                                            0127a6 0129c0 01316e 013256 013340
+                                            013456
+                    libCleaPlusOs.a(tcb.o)  014088 014116
+                    libCleaPlusOs.a(osektrac.o) 014776
+                    libCleaPlusOs.a(osekerr.o) 01483a
+                    libCleaPlusOs.a(osektask.o) 015358 015316 0149e6 0149b2 01498c
+                                            014c16 014e30 014df2 014db0 014d8a
+                                            015078 015032 015006 014fbc 014f8e
+                                            0155ea 0154e2 0154b4 0155b0 015582
+                                            0152b2 0152d8
+                    libCleaPlusOs.a(osekrsrc.o) 015812 0157b4 015772 01572e 0156f6
+                                            0156c2 01569c 015b6c 015b1a 015ae6
+                                            015aa6 015a6e 015a3a 015a14
+                    libCleaPlusOs.a(osekalrm.o) 0168e0 016874 016830 0167dc 0167a4
+                                            016710 0166ea 0166ac 016672 016642
+                                            016596 01655c 01652c 016bc2 016b7e
+                                            016b3a 016aec 016ab4 016e8c 016e58
+                                            016e30
+_osResumeAllInterrupts
+_osResumeOSInterrupts
+_osSaveDisableGlobalNested libCleaPlusOs.a(tcb.o)  013de0 013e28
+_osSaveDisableLevelNested libCleaPlusOs.a(osek.o) 013604 013502 0130f2 01246c 01289c
+                                            012802 012728 012942 0131da 0132c4
+                                            0133da
+                    libCleaPlusOs.a(tcb.o)  01400a 014098
+                    libCleaPlusOs.a(osektrac.o) 014712
+                    libCleaPlusOs.a(osekerr.o) 0147bc
+                    libCleaPlusOs.a(osektask.o) 015438 015342 0149c8 014994 014910
+                                            014d0e 014b9a 014e1a 014ddc 014d9a
+                                            01505a 015014 014fe8 014f9e 014f12
+                                            0155c4 0154c4 01558a 015506 015236
+                                            0152c2 015300
+                    libCleaPlusOs.a(osekrsrc.o) 0157f4 015796 015754 015710 0156d8
+                                            0156a4 01561e 015b4e 015afc 015ac8
+                                            015a88 015a50 015a1c 015996
+                    libCleaPlusOs.a(osekalrm.o) 0168b2 016846 016802 0167ae 016726
+                                            0166b4 016686 01664c 016570 016536
+                                            0164ae 0165c4 016b94 016b50 016b0c
+                                            016abe 016a36 016e6e 016e3a 016db2
+_osSavedIntDisFlag..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+_osSavedIntDisFlagNested..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+_osSavedIntLevel    libCleaPlusOs.a(osektime.o) 013b90 013b8c 013b70 013b6c 013b22
+                                            013b1e 013a16 013a12
+                    libCleaPlusOs.a(tcb.o)  013d50 013d68 013d64 013d54
+                    libCleaPlusOs.a(osektask.o) 014b6e 014b6a 014b3a 014b36 014aa2
+                                            014a9e 014a68 014a64
+                    libCleaPlusOs.a(osekrsrc.o) 01593e 01593a 01589e 01589a 015d02
+                                            015cfe 015cce 015cca 015c68 015c64
+                    libCleaPlusOs.a(osekalrm.o) 016964 016960 01691a 016916 016d86
+                                            016d82 016a06 016a02 016c46 016c42
+                                            016bfc 016bf8 016f7c 016f78 016f46
+                                            016f42 016f00 016efc 016ec6 016ec2
+_osSavedIntLevelNested libCleaPlusOs.a(osek.o) 012b54 012b58 012bd0 012bd4 0133b0
+                                            0133b4 0134da 0134de
+_osSchedule        
+_osSchedulePrio     libCleaPlusOs.a(osektask.o) 0153d6 014ec4 0151ec
+                    libCleaPlusOs.a(osekrsrc.o) 015cba
+_osSetAbsAlarm     
+_osSetRelAlarm      libCleaPlusOs.a(Sys_AlarmHandler.o) 016036 015fe8
+_osShutdownOS      
+_osStackOverflow    libCleaPlusOs.a(osek.o) 012d7a 012dea
+_osStartDispatcher  libCleaPlusOs.a(osek.o) 01257c 012578 012592 012596 012d10
+                                            012d14 012fe6 012fea
+                    libCleaPlusOs.a(osektask.o) 014b1e 014b1a 014cea 014ce6
+_osStartNewTaskAsm..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Cosek.
+_osStartOSasm       libCleaPlusOs.a(Sys_Kernel.o) 01417a
+_osStartOSc         libCleaPlusOs.a(osek.o) 01245e
+_osStopAlarmTimer  
+_osSuspendAllInterrupts
+_osSuspendOSInterrupts
+_osSysActivateTask  libCleaPlusOs.a(osek.o) 0126f8
+_osSysEnableInterruptSource libCleaPlusOs.a(tcb.o)  013dc8
+_osSysShutdownOS    libCleaPlusOs.a(osek.o) 0129c6
+                    libCleaPlusOs.a(osekerr.o) 014798 0147ac
+_osSystemCounter    libCleaPlusOs.a(osek.o) 013656 013652 013554 013550 0124c0
+                                            0124bc 0128f0 0128ec 012856 012852
+                                            012708 01270c 012778 01277c 012992
+                                            012996 013140 013144 013228 01322c
+                                            013312 013316 013428 01342c
+                    libCleaPlusOs.a(osektime.o) 013a38 013a34
+                    libCleaPlusOs.a(tcb.o)  013d88 01405e 01405a 0140ec 0140e8
+                    libCleaPlusOs.a(osektrac.o) 014726 014722
+                    libCleaPlusOs.a(osekerr.o) 014810 01480c
+                    libCleaPlusOs.a(osektask.o) 014d60 014d5c 014962 01495e 014bec
+                                            014be8 014f64 014f60 01548a 015486
+                                            015558 015554 015284 015288
+                    libCleaPlusOs.a(osekrsrc.o) 015672 01566e 0159ea 0159e6
+                    libCleaPlusOs.a(osekalrm.o) 0169ae 0169aa 01677a 016776 016706
+                                            016702 016618 016614 016502 0164fe
+                                            016d46 016d42 016d14 0169de 0169da
+                                            016d10 016cf0 016cec 016caa 016ca6
+                                            016c98 016c94 016c84 016c80 016a8a
+                                            016a86 016e06 016e02
+_osSystemStack      libCleaPlusOs.a(tcb.o)  00f244
+                    libCleaPlusOs.a(osek.o) 01244e 0122f4 0122de 0122d4 012034
+                                            0122b2 012a80 012fc8 012fcc
+_osTaskStack0       libCleaPlusOs.a(tcb.o)  00f278 00f27c 00f284 00f288
+_osTaskStack1       libCleaPlusOs.a(tcb.o)  00f280 00f28c
+_osTcbSP            libCleaPlusOs.a(osek.o) 012dbc 012f66
+_osTcbTaskState     libCleaPlusOs.a(osek.o) 0126da 012d88 012da4 012eb0 012ec8
+                                            012f46
+                    libCleaPlusOs.a(osektask.o) 014ac6 014a6e 014c92 014c64 015114
+                                            014e6c 0150b6 0155f4 0151b6
+_osTerminateTask    libCleaPlusOs.a(Sys_Kernel.o) 0143ba
+_osTimerInterrupt   libCleaPlusOs.a(tcb.o)  01412c
+_osTraceBuffer      libCleaPlusOs.a(osektrac.o) 01475a 014746 014732
+                    libCleaPlusOs.a(osek.o) 01364a 01362c 013614 013548 01352a
+                                            013512 0124b4 012496 01247c 0128e4
+                                            0128c6 0128ac 01284a 01282c 012812
+                                            012738 012752 012770 012952 01296c
+                                            01298a 013102 01311a 013138 0131ea
+                                            013202 013220 0132d4 0132ec 01330a
+                                            0133ea 013402 013420
+                    libCleaPlusOs.a(tcb.o)  014052 014034 01401a 0140e0 0140c2
+                                            0140a8
+                    libCleaPlusOs.a(osekerr.o) 014804 0147e6 0147cc
+                    libCleaPlusOs.a(osektask.o) 015460 015448 014d54 014d36 014956
+                                            014938 014920 014d1e 014be0 014bc2
+                                            014baa 014f58 014f3a 014f22 01547e
+                                            01554c 01552e 015516 015246 01525e
+                                            01527c
+                    libCleaPlusOs.a(osekrsrc.o) 015666 015648 01562e 0159de 0159c0
+                                            0159a6
+                    libCleaPlusOs.a(osekalrm.o) 01676e 016750 016736 01660c 0165ee
+                                            0165d4 0164f6 0164d8 0164be 016a7e
+                                            016a60 016a46 016dfa 016ddc 016dc2
+_osTraceBufferIndex libCleaPlusOs.a(osektrac.o) 014772 01476e
+                    libCleaPlusOs.a(osek.o) 01367c 013678 01366e 01366a 013660
+                                            013642 01363e 013624 013620 01360c
+                                            013608 01357a 013576 01356c 013568
+                                            01355e 013540 01353c 013522 01351e
+                                            01350a 013506 0124e6 0124e2 0124d8
+                                            0124d4 0124ca 0124ac 0124a8 01248e
+                                            01248a 012474 012470 012916 012912
+                                            012908 012904 0128fa 0128dc 0128d8
+                                            0128be 0128ba 0128a4 0128a0 01287c
+                                            012878 01286e 01286a 012860 012842
+                                            01283e 012824 012820 01280a 012806
+                                            01272c 012730 012746 01274a 012764
+                                            012768 012786 012790 012794 01279e
+                                            0127a2 012946 01294a 012960 012964
+                                            01297e 012982 0129a0 0129aa 0129ae
+                                            0129b8 0129bc 012ac6 012aca 0130f6
+                                            0130fa 01310e 013112 01312c 013130
+                                            01314e 013158 01315c 013166 01316a
+                                            0131de 0131e2 0131f6 0131fa 013214
+                                            013218 013236 013240 013244 01324e
+                                            013252 0132c8 0132cc 0132e0 0132e4
+                                            0132fe 013302 013320 01332a 01332e
+                                            013338 01333c 0133de 0133e2 0133f6
+                                            0133fa 013414 013418 013436 013440
+                                            013444 01344e 013452
+                    libCleaPlusOs.a(tcb.o)  014084 014080 014076 014072 014068
+                                            01404a 014046 01402c 014028 014012
+                                            01400e 014112 01410e 014104 014100
+                                            0140f6 0140d8 0140d4 0140ba 0140b6
+                                            0140a0 01409c
+                    libCleaPlusOs.a(osekerr.o) 014836 014832 014828 014824 01481a
+                                            0147fc 0147f8 0147de 0147da 0147c4
+                                            0147c0
+                    libCleaPlusOs.a(osektask.o) 015472 015458 015454 015440 01543c
+                                            014d78 014d74 014d6a 014d4c 014d48
+                                            014d2e 014d2a 014988 014984 01497a
+                                            014976 01496c 01494e 01494a 014930
+                                            01492c 014918 014914 014d16 014d12
+                                            014c12 014c0e 014c04 014c00 014bf6
+                                            014bd8 014bd4 014bba 014bb6 014ba2
+                                            014b9e 014d86 014d82 014f8a 014f86
+                                            014f7c 014f78 014f6e 014f50 014f4c
+                                            014f32 014f2e 014f1a 014f16 0154b0
+                                            0154ac 0154a2 01549e 015494 015476
+                                            01557e 01557a 015570 01556c 015562
+                                            015544 015540 015526 015522 01550e
+                                            01550a 01523a 01523e 015252 015256
+                                            015270 015274 015292 01529c 0152a0
+                                            0152aa 0152ae
+                    libCleaPlusOs.a(osekrsrc.o) 015698 015694 01568a 015686 01567c
+                                            01565e 01565a 015640 01563c 015626
+                                            015622 015a10 015a0c 015a02 0159fe
+                                            0159f4 0159d6 0159d2 0159b8 0159b4
+                                            01599e 01599a
+                    libCleaPlusOs.a(osekalrm.o) 0167a0 01679c 016792 01678e 016784
+                                            016766 016762 016748 016744 01672e
+                                            01672a 01663e 01663a 016630 01662c
+                                            016622 016604 016600 0165e6 0165e2
+                                            0165cc 0165c8 016528 016524 01651a
+                                            016516 01650c 0164ee 0164ea 0164d0
+                                            0164cc 0164b6 0164b2 016ab0 016aac
+                                            016aa2 016a9e 016a94 016a76 016a72
+                                            016a58 016a54 016a3e 016a3a 016e2c
+                                            016e28 016e1e 016e1a 016e10 016df2
+                                            016dee 016dd4 016dd0 016dba 016db6
+_osUnhandledException libCleaPlusOs.a(osekerr.o) 014900
+_osWorkAlarms       libCleaPlusOs.a(tcb.o)  013d92
+_oskAlarmAction     libCleaPlusOs.a(osektime.o) 013aee
+_oskAlarmAutoStart  libCleaPlusOs.a(osektime.o) 013c20 013bbe
+_oskAlarmCallback   libCleaPlusOs.a(osektime.o) 013b02
+_oskAlarmDefinitions libCleaPlusOs.a(osekalrm.o) 01683e 01683a 0167fa 0167f6 016b48
+                                            016b44 016b04 016b00
+_oskAlarmName      
+_oskCounterMaxAllowedValue
+_oskISRLevel        libCleaPlusOs.a(osek.o) 013042 013068 013098
+_oskImr32BitPos    
+_oskImr32No        
+_oskImr8BitPos      libCleaPlusOs.a(osek.o) 013006
+_oskImr8No          libCleaPlusOs.a(osek.o) 01301e
+_oskIntCtrReg       libCleaPlusOs.a(osek.o) 013056 013080
+_oskLevelToPMRMask  libCleaPlusOs.a(osek.o) 012d22 0130c2
+                    libCleaPlusOs.a(tcb.o)  013d02 013ca4
+_oskResAccessMask   libCleaPlusOs.a(osekrsrc.o) 0157ce
+_oskResCeilingPrio  libCleaPlusOs.a(osekrsrc.o) 01573e 015b3e
+_oskResCeilingPrioMask libCleaPlusOs.a(osekrsrc.o) 015910 015822 015c96 015bcc
+_oskResName        
+_oskStaticAlarmCycleTime libCleaPlusOs.a(osektime.o) 013aba 013aa6 013c42
+_oskStaticAlarmTime libCleaPlusOs.a(osektime.o) 013be0
+                    libCleaPlusOs.a(osekalrm.o) 01689c 016884 016d58 016d24 016ce4
+_oskSystemStackTop  libCleaPlusOs.a(osek.o) 012a88 012a8c 012a9e 012aa2 012e54
+                                            012e58
+_oskTcbAutoStart    libCleaPlusOs.a(osek.o) 0126e8
+_oskTcbHomePrio     libCleaPlusOs.a(osektask.o) 01532c 0149f6 014c20 015172 014dc6
+                                            014fd2
+                    libCleaPlusOs.a(osekrsrc.o) 015788 015b30
+_oskTcbOILPrio     
+_oskTcbReadyPrioMask libCleaPlusOs.a(osektask.o) 014ae6 014cb2 01512c 014e84 0151d6
+_oskTcbStackBottom  libCleaPlusOs.a(osek.o) 012a34 012334 012d64 012dd4
+                    libCleaPlusOs.a(Sys_StackHandler.o) 01450e
+_oskTcbStackTop     libCleaPlusOs.a(osek.o) 012a68 012a48 012314 012f14
+                    libCleaPlusOs.a(Sys_StackHandler.o) 014500
+_oskTcbTaskFlags    libCleaPlusOs.a(osektask.o) 01536a
+_oskTcbTaskName    
+_oskTcbTaskPreemption libCleaPlusOs.a(osek.o) 012e84
+_oskTcbTaskStartAddress libCleaPlusOs.a(osek.o) 012f2a
+_oskUnusedIsrs32.osDisableUnusedInterrupts.D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5Ctcb..0
+_oskVersionVariant  libCleaPlusOs.a(osek.o) 012924 012928
+_programinit_flag  
+_spicnt            
+_taskerr           
+_totalprdtm..D.3A.5Csvn.5CSystem_Core_Dev.5Ctrunk.5CFX4_OscanEvt_OS.5CFx4_OS_GHS.5CTools.5C_build.5Cghs_v850.5COBJ.5CSys_Kernel.
+_undefined_cleanup  libansi.a(ccexit.o)     016fd8 016fd4
+_undefined_cleanup_func libansi.a(ccexit.o)     016fbe 016fba
+_unused_isr         interrupt.o             00253a
+osCallDispTrap      libCleaPlusOs.a(osek.o) 012200 012204
+osISREpilogue       libCleaPlusOs.a(intvect.o) 01414a
+osISREpilogue1      libCleaPlusOs.a(osek.o) 01210a
+osISREpilogueAbort 
+osSaveIsrContext    libCleaPlusOs.a(intvect.o) 014142

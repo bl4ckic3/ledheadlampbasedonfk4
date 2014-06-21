@@ -1,0 +1,281 @@
+-------------------------------------------------------------------------------
+-- Module      = df4010_startup.850
+-- Version     = E1.00b
+--               extracted from device file df4010.800   by DeFiXE2 0.8.4.5
+-------------------------------------------------------------------------------
+--                                  COPYRIGHT
+-------------------------------------------------------------------------------
+-- Copyright (c) 2010 by Renesas Electronics Europe GmbH,
+--               a company of the Renesas Electronics Corporation
+-------------------------------------------------------------------------------
+-- Purpose:      Startup Code
+--
+-------------------------------------------------------------------------------
+--
+-- Warranty Disclaimer
+--
+-- Because the Product(s) is licensed free of charge, there is no warranty
+-- of any kind whatsoever and expressly disclaimed and excluded by NEC,
+-- either expressed or implied, including but not limited to those for
+-- non-infringement of intellectual property, merchantability and/or
+-- fitness for the particular purpose.
+-- NEC shall not have any obligation to maintain, service or provide bug
+-- fixes for the supplied Product(s) and/or the Application.
+--
+-- Each User is solely responsible for determining the appropriateness of
+-- using the Product(s) and assumes all risks associated with its exercise
+-- of rights under this Agreement, including, but not limited to the risks
+-- and costs of program errors, compliance with applicable laws, damage to
+-- or loss of data, programs or equipment, and unavailability or
+-- interruption of operations.
+--
+-- Limitation of Liability
+--
+-- In no event shall NEC be liable to the User for any incidental,
+-- consequential, indirect, or punitive damage (including but not limited
+-- to lost profits) regardless of whether such liability is based on breach
+-- of contract, tort, strict liability, breach of warranties, failure of
+-- essential purpose or otherwise and even if advised of the possibility of
+-- such damages. NEC shall not be liable for any services or products
+-- provided by third party vendors, developers or consultants identified or
+-- referred to the User by NEC in connection with the Product(s) and/or the
+-- Application.
+--
+-------------------------------------------------------------------------------
+-- Environment:
+--              Device:         UPD70F4010  
+--              IDE:            GHS Multi for V800
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-------------  Selection of external interrupt service handler
+-------------  User modifiable section
+-------------  Please uncomment the required interrupt service handler
+-------------------------------------------------------------------------------
+#include "df4010_IRQ.h"
+
+-------------------------------------------------------------------------------
+-------------  Basic Initialisation of the controller
+-------------  User modifiable section
+-------------------------------------------------------------------------------
+.weak	___lowinit
+.text
+_RESET:
+  -- Initialisation of the global pointer
+  movhi	hi(___ghsbegin_sdabase),zero,gp
+  movea	lo(___ghsbegin_sdabase),gp,gp
+
+  -- Initialisation of the text pointer
+  movhi	hi(___ghsbegin_robase),zero,tp
+  movea	lo(___ghsbegin_robase),tp,tp
+
+  -- Initialisation of the stack pointer
+  movhi	hi(___ghsend_stack-4),zero,sp
+  movea	lo(___ghsend_stack-4),sp,sp
+  mov -4,r1
+  and r1,sp
+
+  -- Jump to the HW Initialisation function
+  jarl	___lowinit, lp
+  -- Jump to the Initialisation functions of the library,
+  -- from there to main()
+  jr __start
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-------------  Interrupt service routine of unused interrupts
+--modified by wanghui @2011-11-11: jump to my own unused isr
+    .global  __unused_isr
+    .extern _unused_isr
+__unused_isr:
+    jr	_unused_isr
+
+-------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------
+-------------  Add section ".intvect" to your linker command file
+-------------  at address 0x0000
+-------------
+-------------	i.e.	.intvect    0x0000:
+-------------------------------------------------------------------------------
+.section".intvect",.text
+
+-------------------------------------------------------------------------------
+-------------  Initializing of interrupt vector table
+-------------  Please don't modify this section
+-------------------------------------------------------------------------------
+.global _RESET
+
+	.offset 0x0000
+	.extern _RESET
+	jr _RESET
+
+#ifdef __OS_HANDLES__      
+#endif   /* __OS_HANDLES__ */
+
+
+		
+#pragma intvect EXTERNAL_INTERRUPT_0_ISR 0x00000110
+
+/* Interrupt Vector Address for Timer 0 Interrupt */ 
+#pragma intvect Timer0_Interrupt 0x000001C0 
+
+-------------------------------------------------------------------------------
+-------------  PWM interrupt vector table
+-------------------------------------------------------------------------------
+/* Mapping of Timer Interrupt Vector Addresses
+ * to their respective service routines.
+ */
+#if (PWM_TAUC3_CH0_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH0_ISR 0x000004C0
+#endif
+
+#if (PWM_TAUC3_CH1_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH1_ISR 0x000004D0
+#endif
+
+#if (PWM_TAUC3_CH2_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH2_ISR 0x000004E0
+#endif
+
+#if (PWM_TAUC3_CH3_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH3_ISR 0x000004F0
+#endif
+
+#if (PWM_TAUC3_CH4_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH4_ISR 0x00000500
+#endif
+
+#if (PWM_TAUC3_CH5_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH5_ISR 0x00000510
+#endif
+
+#if (PWM_TAUC3_CH6_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH6_ISR 0x00000520
+#endif
+
+#if (PWM_TAUC3_CH7_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH7_ISR 0x00000530
+#endif
+
+#if (PWM_TAUC3_CH8_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH8_ISR 0x00000540
+#endif
+
+#if (PWM_TAUC3_CH9_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH9_ISR 0x00000550
+#endif
+
+#if (PWM_TAUC3_CH10_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH10_ISR 0x00000560
+#endif
+
+#if (PWM_TAUC3_CH11_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH11_ISR 0x00000570
+#endif
+
+#if (PWM_TAUC3_CH12_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH12_ISR 0x00000580
+#endif
+
+#if (PWM_TAUC3_CH13_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH13_ISR 0x00000590
+#endif
+
+#if (PWM_TAUC3_CH14_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH14_ISR 0x000005A0
+#endif
+
+#if (PWM_TAUC3_CH15_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH15_ISR 0x000005B0
+#endif
+
+#if (PWM_TAUC3_CH15_ISR_API == STD_ON)
+#pragma intvect TAUC3_CH15_ISR 0x000005B0
+#endif
+
+
+-------------------------------------------------------------------------------
+-------------  ADC interrupt vector table
+-------------------------------------------------------------------------------
+  .offset 0x06D0
+	#if (ADC0_CG0_ISR_API == STD_ON)
+	.extern _ADC0_CG0_ISR
+	jr _ADC0_CG0_ISR
+	#else
+	jr _unused_isr
+	#endif
+
+-------------------------------------------------------------------------------
+-------------  TAUJ1I0 interrupt vector table
+-------------------------------------------------------------------------------
+  .offset 0x0930
+  .extern _INTTAUJ1I0
+  jr _INTTAUJ1I0
+
+-------------------------------------------------------------------------------
+-------------  TAUJ1 interrupt vector table
+-------------------------------------------------------------------------------
+  .offset 0x0960
+  .extern _TAUJ1_CH3_ISR
+  jr _unused_isr
+		
+-------------------------------------------------------------------------------
+-------------  OSTM interrupt vector table
+-------------------------------------------------------------------------------
+  .offset 0x09B0
+    .extern _OSTM0_CH0_ISR
+    jr _OSTM0_CH0_ISR
+		
+-------------------------------------------------------------------------------
+-------------  LIN interrupt vector table
+-------------------------------------------------------------------------------
+#if (LIN_LMA_SUPPORTED == STD_OFF) 
+   .offset 0x0cc0
+	 #if (LIN_CHANNEL3_CONFIGURED == STD_ON) 
+    .extern _LIN_UART3_RX_ISR
+    jr _LIN_UART3_RX_ISR
+	 #else
+		jr _unused_isr
+   #endif
+
+  .offset 0x0cd0
+	 #if (LIN_CHANNEL3_CONFIGURED == STD_ON) 
+    .extern _IIN_UART3_RX_ISR
+    jr _LIN_UART3_RX_ISR
+	 #else
+		jr _unused_isr
+   #endif
+		
+  .offset 0x0ce0
+	 #if (LIN_CHANNEL3_CONFIGURED == STD_ON) 
+    .extern _LIN_UART3_RX_ISR
+    jr _LIN_UART3_RX_ISR
+	 #else
+		jr _unused_isr
+   #endif
+#else
+   .offset 0x0cc0
+	 #if (LIN_CHANNEL3_CONFIGURED == STD_ON) 
+    .extern LIN_LMA3_RX_ISR
+    jr LIN_LMA3_RX_ISR
+	 #else
+		jr _unused_isr
+   #endif
+
+  .offset 0x0cd0
+	 #if (LIN_CHANNEL3_CONFIGURED == STD_ON) 
+    .extern LIN_LMA3_STS_ISR
+    jr LIN_LMA3_STS_ISR
+	 #else
+		jr _unused_isr
+   #endif
+		
+  .offset 0x0ce0
+	 #if (LIN_CHANNEL3_CONFIGURED == STD_ON) 
+    .extern LIN_LMA3_TX_ISR
+    jr LIN_LMA3_TX_ISR
+	 #else
+		jr _unused_isr
+   #endif
+#endif
